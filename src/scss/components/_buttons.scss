@@ -50,15 +50,9 @@
         &__img{
             max-width: 100px;
         }
-    }
-    &__registro{
-        background-color: var(--color-yellow);
-        border: 1px solid var(--color-yellow);
-        color: var(--color-blue);
-        padding: 1rem 2rem;
-        font-size: 18px;
-        font-weight: bold;
-        margin: 0.5rem auto;
+        &:hover{
+            background-color: var(--color-white);
+        }
     }
     &__banca{
         background-color: var(--color-blue);

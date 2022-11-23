@@ -1,4 +1,4 @@
-import data from '../../data/example.json';
+import data from '../../../public/bonuses.json';
 
 let modalBonus = document.getElementById("bonus");
 let container = document.querySelector(".bonus__container");

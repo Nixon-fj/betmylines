@@ -3999,295 +3999,71 @@ var tns = exports.tns = function tns(options) {
 
 },{"./helpers/addCSSRule.js":1,"./helpers/addClass.js":2,"./helpers/addEvents.js":3,"./helpers/arrayFromNodeList.js":4,"./helpers/caf.js":5,"./helpers/calc.js":6,"./helpers/checkStorageValue.js":7,"./helpers/createStyleSheet.js":9,"./helpers/events.js":11,"./helpers/extend.js":12,"./helpers/forEach.js":13,"./helpers/getAttr.js":14,"./helpers/getCssRulesLength.js":16,"./helpers/getEndProperty.js":17,"./helpers/getSlideId.js":18,"./helpers/getTouchDirection.js":19,"./helpers/has3DTransforms.js":20,"./helpers/hasAttr.js":21,"./helpers/hasClass.js":22,"./helpers/hideElement.js":23,"./helpers/isVisible.js":25,"./helpers/jsTransform.js":26,"./helpers/mediaquerySupport.js":27,"./helpers/percentageLayout.js":29,"./helpers/raf.js":30,"./helpers/removeAttrs.js":31,"./helpers/removeCSSRule.js":32,"./helpers/removeClass.js":33,"./helpers/removeEvents.js":34,"./helpers/setAttrs.js":36,"./helpers/setLocalStorage.js":38,"./helpers/showElement.js":39,"./helpers/toDegree.js":40,"./helpers/whichProperty.js":41}],43:[function(require,module,exports){
 module.exports={
-	"topnavmenu": [
-		{
-			"text": "Deportes",
-			"src": "#"
-		},
-		{
-			"text": "Apuestas en vivo",
-			"src": "apuestas-vivo.html"
-		},
-		{
-			"text": "Casino",
-			"src": "casino.html"
-		},
-		{
-			"text": "Caballos",
-			"src": "caballos.html"
-		},
-		{
-			"text": "Peleas de Gallos",
-			"src": "gallos.html"
-		},
-		{
-			"text": "Banca",
-			"src": "banca.html"
-		}
-	],
-	"footerMenu": [
-		{
-			"footerColum": [
-				{
-					"text": "Deportes en linea",
-					"src": "#"
-				},
-				{
-					"text": "Casino en linea",
-					"src": "/casino.html"
-				},
-				{
-					"text": "Caballos en linea",
-					"src": "#"
-				},
-				{
-					"text": "Registrate Aqui",
-					"src": "/registrarse.html"
-				},
-				{
-					"text": "Acerca de Nosotros",
-					"src": "#"
-				}
-			]
-		},
-		{
-			"footerColum": [
-				{
-					"text": "Banca",
-					"src": "/banca.html"
-				},
-				{
-					"text": "Bonos y Promociones",
-					"src": "/bonus.html"
-				},
-				{
-					"text": "Agentes",
-					"src": "#"
-				},
-				{
-					"text": "Afiliados",
-					"src": "#"
-				}
-			]
-		},
-		{
-			"footerColum": [
-				{
-					"text": "Terminos y Condiciones",
-					"src": "#"
-				},
-				{
-					"text": "Juego Responsable",
-					"src": "#"
-				},
-				{
-					"text": "Autoexclusion",
-					"src": "#"
-				},
-				{
-					"text": "Politica de Reclamos",
-					"src": "#"
-				},
-				{
-					"text": "AML",
-					"src": "#"
-				},
-				{
-					"text": "Juego Justo",
-					"src": "#"
-				},
-				{
-					"text": "Politica de Privacidad",
-					"src": "#"
-				}
-			]
-		},
-		{
-			"footerColum": [
-				{
-					"text": "Reglas de la casa",
-					"src": "#"
-				},
-				{
-					"text": "Reglas de Deportes",
-					"src": "#"
-				},
-				{
-					"text": "reglas de Casino",
-					"src": "#"
-				}
-			]
-		}
-	],
-	"socialicon": [
-		{
-			"src": "assets/img/home/desktop/footer/facebook.png"
-		},
-		{
-			"src": "assets/img/home/desktop/footer/inst.png"
-		},
-		{
-			"src": "assets/img/home/desktop/footer/18=.png"
-		}
-	],
-	"sliderHome": [
-		{
-			"src": "assets/img/home/desktop/gallos_slider.jpg",
-			"imgMob": "assets/img/home/mobile/gallos_slider.jpg"
-		},
-		{
-			"src": "assets/img/home/desktop/soccer_slider.jpg",
-			"imgMob": "assets/img/home/mobile/soccer_slider.jpg"
-		},
-		{
-			"src": "assets/img/home/desktop/casino_slider.jpg",
-			"imgMob": "assets/img/home/mobile/casino_mobile.jpg"
-		},
-		{
-			"src": "assets/img/home/desktop/caballos_slider.jpg",
-			"imgMob": "assets/img/home/mobile/horses_slider.jpg"
-		}
-	],
-	"metodoPago": [
-		{
-			"src": "assets/img/home/desktop/met pago/bitc.png"
-		},
-		{
-			"src": "assets/img/home/desktop/met pago/bitc 2.png"
-		},
-		{
-			"src": "assets/img/home/desktop/met pago/lite.png"
-		},
-		{
-			"src": "assets/img/home/desktop/met pago/t.png"
-		},
-		{
-			"src": "assets/img/home/desktop/met pago/moneygr.png"
-		},
-		{
-			"src": "assets/img/home/desktop/met pago/zero.png"
-		},
-		{
-			"src": "assets/img/home/desktop/met pago/masterc.png"
-		},
-		{
-			"src": "assets/img/home/desktop/met pago/visa.png"
-		}
-	],
-	"homeBonus": [
-		{
-			"img": "assets/img/home/desktop/bonus/100_bonus.jpg",
-			"src": "/bonus.html"
-		},
-		{
-			"img": "assets/img/home/desktop/bonus/casino_bonus.jpg",
-			"src": "/bonus.html"
-		},
-		{
-			"img": "assets/img/home/desktop/bonus/25-reload_bonus.jpg",
-			"src": "/bonus.html"
-		}
-	],
-	"bonuses": [
-		{
-			"img": "assets/img/promos/desktop/100-bienvenida-image.jpg",
-			"imgMob": "assets/img/promos/mob/100 promo.jpg",
-			"percentage": "100%",
+    "bonuses": [
+        {
+            "img": "assets/img/promos/desktop/100-bienvenida-image.jpg",
+            "imgMob": "assets/img/promos/mob/100 promo.jpg",
+            "percentage": "100%",
             "name": "BIENVENIDA EN DEPORTES",
             "text": "Se requiere un depósito mínimo de $20 para calificar para el bono<br><br>Te obsequiamos el 100 % de bono en su <strong>PRIMER DEPÓSITO</strong> solamente.<br><br>El máximo de bono a recibir por depósito es de $250<br><br>El bono será otorgado como Jugada Gratuita<br><br>Deberás cumplir con ( el monto rollover 12x (Doce veces) que está asociado a esta promoción<br><br>Rollover (w) es calculado en base a su depósito (d), más el bono (b), multiplicado por el requisito de su bono (r). Fórmula del Rollover: w= (d+b)*r<br><br>Nota: solamente el monto más bajo entre el monto que arriesga y gana cuenta para el requisito del rollover. Caballos, Casino, Poker y apuestas en vivo no cuentan para el rollover<br><br>Para recibir el bono, debe utilizar el código de la promoción: <strong>MBSPORTS100</strong><br><br>Esta promoción no es transferible<br><br>Las jugadas gratuitas podrán ser utilizadas solamente en jugadas directas hasta una línea de -150. Estas no podrán ser usadas en Caballos, Casino, Poker or Apuestas en vivo<br><br><strong>MONEYBET</strong> se reserva el derecho de alterar o modificar los Términos y Condiciones de esta promoción en cualquier momento sin previo aviso.<br><br>Para más información acerca de límites de bonos y reembolsos, por favor visite nuestros  <a class='linkTerms' href='#'>Términos y Condiciones</a><br><br>"
-		},
-		{
-			"img": "assets/img/promos/desktop/100-casino.jpg",
-			"imgMob": "assets/img/promos/mob/100 promo casino.jpg",
-			"percentage": "100%",
+        },
+        {
+            "img": "assets/img/promos/desktop/100-casino.jpg",
+            "imgMob": "assets/img/promos/mob/100 promo casino.jpg",
+            "percentage": "100%",
             "name": "BONO CASINO DE BIENVENIDA",
             "text": "Te obsequiamos el 100% de bono en su <strong>DEPOSITO DE INICIO</strong> solamente.<br><br> Se requiere un depósito mínimo de $10 para calificar para el bono<br><br> Lo máximo que se paga por este bono es $1000<br><br> El retiro máximo por este bono es de $1500<br><br> Debe cumplir con 50X (Cincuenta veces) rollover asociado a esta promoción.<br><br> Los depósitos hechos con Tarjetas de crédito deben de cumplir con 40X (Cuarenta veces) rollover<br><br> El bono aplica solo para casino en línea<br><br> El bono es abierto para todos los jugadores.<br><br> Para recibir el bono, debe utilizar el código de la promoción que es: <strong>MBCASINO100</strong><br><br> <strong>MONEYBET</strong> se reserva el derecho de alterar o modificar los Términos y Condiciones de esta promoción en cualquier momento sin previo aviso.<br><br> Para más información acerca de límites de bonos y reembolsos, por favor visite nuestros  <a class='linkTerms' href='#'>Términos y Condiciones</a> <br><br>"
-		},
-		{
-			"img": "assets/img/promos/desktop/50-bienv.jpg",
-			"imgMob": "assets/img/promos/mob/50 promo.jpg",
-			"percentage": "50%",
+        },
+        {
+            "img": "assets/img/promos/desktop/50-bienv.jpg",
+            "imgMob": "assets/img/promos/mob/50 promo.jpg",
+            "percentage": "50%",
             "name": "BIENVENIDA EN DEPORTES",
             "text": "Se requiere un depósito mínimo de $20 para calificar para el bono<br><br>Te obsequiamos el 50% de bono en su <strong>PRIMER DEPÓSITO</strong> solamente.<br><br>El máximo de bono a recibir por depósito es de $125<br><br>El bono será otorgado como Jugada Gratuita<br><br>Deberás cumplir con ( el monto rollover 10x (Diez veces) que está asociado a esta promoción<br><br>Rollover (w) es calculado en base a su depósito (d), más el bono (b), multiplicado por el requisito de su bono (r). Fórmula del Rollover: w= (d+b)*r<br><br>Nota: solamente el monto más bajo entre el monto que arriesga y gana cuenta para el requisito del rollover. Caballos, Casino, Poker y apuestas en vivo no cuentan para el rollover<br><br>Para recibir el bono, debe utilizar el código de la promoción: <strong>MBSPORTS50</strong><br><br>Esta promoción no es transferible<br><br>Las jugadas gratuitas podrán ser utilizadas solamente en jugadas directas hasta una línea de -150. Estas no podrán ser usadas en Caballos, Casino, Poker or Apuestas en vivo<br><br><strong>MONEYBET</strong> se reserva el derecho de alterar o modificar los Términos y Condiciones de esta promoción en cualquier momento sin previo aviso.<br><br>Para más información acerca de límites de bonos y reembolsos, por favor visite nuestros  <a class='linkTerms' href='#'>Términos y Condiciones</a><br><br>"
-		},
-		{
-			"img": "assets/img/promos/desktop/25-bienv.jpg",
-			"imgMob": "assets/img/promos/mob/25 promo.jpg",
-			"percentage": "25%",
+        },
+        {
+            "img": "assets/img/promos/desktop/25-bienv.jpg",
+            "imgMob": "assets/img/promos/mob/25 promo.jpg",
+            "percentage": "25%",
             "name": "BIENVENIDA EN DEPORTES",
             "text": "Se requiere un depósito mínimo de $20 para calificar para el bono<br><br>Te obsequiamos el 25% de bono en su <strong>PRIMER DEPÓSITO</strong> solamente.<br><br>El máximo de bono a recibir por depósito es de $75<br><br>El bono será otorgado como Jugada Gratuita<br><br>Deberás cumplir con ( el monto rollover 8x (Ocho veces)) que está asociado a esta promoción<br><br>Rollover (w) es calculado en base a su depósito (d), más el bono (b), multiplicado por el requisito de su bono (r). Fórmula del Rollover: w= (d+b)*r<br><br>Nota: solamente el monto más bajo entre el monto que arriesga y gana cuenta para el requisito del rollover. Caballos, Casino, Poker y apuestas en vivo no cuentan para el rollover<br><br>Para recibir el bono, debe utilizar el código de la promoción: <strong>MBSPORTS25</strong><br><br>Esta promoción no es transferible<br><br>Las jugadas gratuitas podrán ser utilizadas solamente en jugadas directas hasta una línea de 150. Estas no podrán ser usadas en Caballos, Casino, Poker or Apuestas en vivo<br><br><strong>MONEYBET</strong> se reserva el derecho de alterar o modificar los Términos y Condiciones de esta promoción en cualquier momento sin previo aviso.<br><br>Para más información acerca de límites de bonos y reembolsos, por favor visite nuestros <a class='linkTerms' href='#'>Términos y Condiciones</a><br><br>"
-		},
-		{
-			"img": "assets/img/promos/desktop/25-recarga.jpg",
-			"imgMob": "assets/img/promos/mob/25 reload.jpg",
-			"percentage": "25%",
+        },
+        {
+            "img": "assets/img/promos/desktop/25-recarga.jpg",
+            "imgMob": "assets/img/promos/mob/25 reload.jpg",
+            "percentage": "25%",
             "name": "BONO DE RECARGA DEPORTES",
             "text": "Se requiere un depósito mínimo de $20 para calificar para el bono<br><br>Te obsequiamos el 25% de bono en su <strong>DEPÓSITO DE RECARGA</strong> solamente.<br><br>El máximo de bono a recibir por depósito es de $250<br><br>El bono será otorgado como Jugada Gratuita<br><br>Deberás cumplir con ( el monto rollover 8x (Ocho veces) que está asociado a esta promoción<br><br>Rollover (w) es calculado en base a su depósito (d), más el bono (b), multiplicado por el requisito de su bono (r). Fórmula del Rollover: w= (d+b)*r<br><br>Nota: solamente el monto más bajo entre el monto que arriesga y gana cuenta para el requisito del rollover. Caballos, Casino, Poker y apuestas en vivo no cuentan para el rollover<br><br>Para recibir el bono, debe utilizar el código de la promoción: <strong>BETRELOAD25</strong><br><br>Esta promoción no es transferible<br><br>Las jugadas gratuitas podrán ser utilizadas solamente en jugadas directas hasta una línea de 150. Estas no podrán ser usadas en Caballos, Casino, Poker or Apuestas en vivo<br><br><strong>MONEYBET</strong> se reserva el derecho de alterar o modificar los Términos y Condiciones de esta promoción en cualquier momento sin previo aviso.<br><br>Para más información acerca de límites de bonos y reembolsos, por favor visite nuestros  <a class='linkTerms' href='#'>Términos y Condiciones</a><br><br>"
-		},
-		{
-			"img": "assets/img/promos/desktop/50-casino.jpg",
-			"imgMob": "assets/img/promos/mob/50 reload.jpg",
-			"percentage": "50%",
+        },
+        {
+            "img": "assets/img/promos/desktop/50-casino.jpg",
+            "imgMob": "assets/img/promos/mob/50 reload.jpg",
+            "percentage": "50%",
             "name": "RECARGA EN CASINO",
             "text": "Te obsequiamos el 50% de bono en su <strong>DEPÓSITO DE RECARGA</strong> solamente.<br><br>Se requiere un depósito mínimo de $10 para calificar para el bono<br><br>Lo máximo que se paga por este bono es $1000<br><br>El retiro máximo por este bono es de $1000<br><br>Debe cumplir con 40X (Cuarenta veces) rollover asociado a esta promoción.<br><br>Los depósitos hechos con Tarjetas de crédito deben de cumplir con 30X (Treinta veces) rollover<br><br>El bono aplica solo para casino en línea<br><br>El bono es abierto para todos los jugadores.<br><br>Para recibir el bono, debe utilizar el código de la promoción que es: <strong>MBRELOAD50</strong><br><br><strong>MONEYBET</strong> se reserva el derecho de alterar o modificar los Términos y Condiciones de esta promoción en cualquier momento sin previo aviso.<br><br>Para más información acerca de límites de bonos y reembolsos, por favor visite nuestros <a class='linkTerms' href='#'>Términos y Condiciones</a><br><br>"
-		},
-		{
-			"img": "assets/img/promos/desktop/25-giros.jpg",
-			"imgMob": "assets/img/promos/mob/25 giros.jpg",
-			"percentage": "25%",
+        },
+        {
+            "img": "assets/img/promos/desktop/25-giros.jpg",
+            "imgMob": "assets/img/promos/mob/25 giros.jpg",
+            "percentage": "25%",
             "name": "GIROS GRATIS",
             "text": "Te obsequiamos 25 giros gratis  en su <strong>DEPOSITO DE INICIO</strong> solamente.<br><br>Se requiere un depósito mínimo de $10 para calificar para el bono<br><br>Lo máximo que se paga es hasta 25 giros.<br><br>El retiro máximo por este bono es de $50<br><br>Debe cumplir con 40X (Cuarenta veces) rollover asociado a esta promoción.<br><br>Los depósitos hechos con Tarjetas de crédito deben de cumplir con 40X (Cuarenta veces) rollover<br><br>El bono aplica solo para casino en línea<br><br>El bono es abierto para todos los jugadores.<br><br>Para recibir el bono, debe utilizar el código de la promoción que es: <strong>25MBSPINS</strong><br><br><strong>MONEYBET</strong> se reserva el derecho de alterar o modificar los Términos y Condiciones de esta promoción en cualquier momento sin previo aviso.<br><br>Para más información acerca de límites de bonos y reembolsos, por favor visite nuestros  <a class='linkTerms' href='#'>Términos y Condiciones</a><br><br>No Aplica con otras <strong>PROMOCIONES</strong><br><br>"
-		},
-		{
-			"img": "assets/img/promos/desktop/caballos.jpg",
-			"imgMob": "assets/img/promos/mob/caballos.jpg",
-			"percentage": "8%",
+        },
+        {
+            "img": "assets/img/promos/desktop/caballos.jpg",
+            "imgMob": "assets/img/promos/mob/caballos.jpg",
+            "percentage": "8%",
             "name": "DE REEMBOLSO DIARIO EN CABALLOS ",
             "text": "Pagos diarios, basado en el monto arriesgado del día anterior. Gane o pierda, cuando usted juegue, nosotros pagamos. No hay rollovers.<br><br>Esta promoción no puede ser combinada con otros reembolsos.<br><br>No hay requisitos mínimos de volumen diario y no hay un máximo de cuánto puede ganar<br><br>No importa si gane o pierda, nosotros le acreditamos el reembolso basado en el volumen y la categoría de la pista<br><br>"
-		}
-	],
-	"providers":[
-		{
-			"img": "assets/img/apuestas en vivo y casino/betsof logo.png"
-		},
-		{
-			"img": "assets/img/apuestas en vivo y casino/concept.png"
-		},
-		{
-			"img": "assets/img/apuestas en vivo y casino/endorphina.png"
-		},
-		{
-			"img": "assets/img/apuestas en vivo y casino/evolution.png"
-		},
-		{
-			"img": "assets/img/apuestas en vivo y casino/ezugi.png"
-		},
-		{
-			"img": "assets/img/apuestas en vivo y casino/slasa.png"
-		},
-		{
-			"img": "assets/img/apuestas en vivo y casino/nucleus.png"
-		},
-		{
-			"img": "assets/img/apuestas en vivo y casino/platinum.png"
-		},
-		{
-			"img": "assets/img/apuestas en vivo y casino/bet games.png"
-		},
-		{
-			"img": "assets/img/apuestas en vivo y casino/vivo.png"
-		},
-		{
-			"img": "assets/img/apuestas en vivo y casino/tom.png"
-		}
-	]
+        }
+    ]
 }
 },{}],44:[function(require,module,exports){
 "use strict";
 
-var _example = require("../../data/example.json");
+var _bonuses = require("../../../public/bonuses.json");
 
-var _example2 = _interopRequireDefault(_example);
+var _bonuses2 = _interopRequireDefault(_bonuses);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -4319,11 +4095,11 @@ function generateInfo() {
     section.style.pointerEvents = 'none';
     if (this) {
         container.innerHTML = "<a href='#' class='bonus__close' id='btnclose'></a>";
-        container.innerHTML += "\n        <h1>" + _example2.default.bonuses[this.id].percentage + "</h1>\n        <h2>" + _example2.default.bonuses[this.id].name + "</h2>\n        <p>" + _example2.default.bonuses[this.id].text + "</p>\n        ";
+        container.innerHTML += "\n        <h1>" + _bonuses2.default.bonuses[this.id].percentage + "</h1>\n        <h2>" + _bonuses2.default.bonuses[this.id].name + "</h2>\n        <p>" + _bonuses2.default.bonuses[this.id].text + "</p>\n        ";
     }
 }
 
-},{"../../data/example.json":43}],45:[function(require,module,exports){
+},{"../../../public/bonuses.json":43}],45:[function(require,module,exports){
 "use strict";
 
 var modal = document.getElementById("modal-login");
