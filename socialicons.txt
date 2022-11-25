@@ -1,0 +1,11 @@
+"socialicon": [
+		{
+			"src": "assets/img/home/desktop/footer/facebook.png"
+		},
+		{
+			"src": "assets/img/home/desktop/footer/inst.png"
+		},
+		{
+			"src": "assets/img/home/desktop/footer/18=.png"
+		}
+	],

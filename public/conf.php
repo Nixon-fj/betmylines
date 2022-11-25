@@ -6,6 +6,4 @@ define("DGS_SITEID","916");
 
 require "C:\\inetpub\\wwwroot\\generalConfig.php";
 
-
-
 ?>

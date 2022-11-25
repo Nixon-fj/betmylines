@@ -2,7 +2,8 @@ import topNav from './components/topNav';
 import { tnsCarousell, tnsSingle, tnsPromotion } from './components/tns-slider';
 import modal from './components/modal-login';
 import bonus from './components/bonus';
-import tabs from './components/tabs'
+import tabs from './components/tabs';
+import {initAcc} from './components/dropdown';
 
 (() => {
 	modal;
@@ -17,5 +18,8 @@ import tabs from './components/tabs'
 	}
 	else if (document.body.classList.contains('Banca')) {
 		tabs();
+	}
+	else if (document.body.classList.contains('ReglasDeportes')) {
+		initAcc();
 	}
 })();

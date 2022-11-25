@@ -4100,6 +4100,33 @@ function generateInfo() {
 }
 
 },{"../../../public/bonuses.json":43}],45:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+function initAcc(elem, option) {
+    document.addEventListener('click', function (e) {
+        if (!e.target.matches(elem + ' .a-btn')) return;else {
+            if (!e.target.parentElement.classList.contains('active')) {
+                if (option == true) {
+                    var elementList = document.querySelectorAll(elem + ' .a-container');
+                    Array.prototype.forEach.call(elementList, function (e) {
+                        e.classList.remove('active');
+                    });
+                }
+                e.target.parentElement.classList.add('active');
+            } else {
+                e.target.parentElement.classList.remove('active');
+            }
+        }
+    });
+}
+initAcc('.accordion.v1', true);
+initAcc('.accordion.v2', false);
+exports.default = initAcc();
+
+},{}],46:[function(require,module,exports){
 "use strict";
 
 var modal = document.getElementById("modal-login");
@@ -4116,7 +4143,7 @@ function closeModal() {
 btn.addEventListener('click', openModal);
 span.addEventListener('click', closeModal);
 
-},{}],46:[function(require,module,exports){
+},{}],47:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -4144,7 +4171,7 @@ var tabs = function tabs() {
 
 exports.default = tabs;
 
-},{}],47:[function(require,module,exports){
+},{}],48:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -4219,7 +4246,7 @@ var tnsPromotion = exports.tnsPromotion = function tnsPromotion() {
   });
 };
 
-},{"../../../node_modules/tiny-slider/src/tiny-slider":42}],48:[function(require,module,exports){
+},{"../../../node_modules/tiny-slider/src/tiny-slider":42}],49:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -4237,7 +4264,7 @@ var topNav = function topNav() {
 
 exports.default = topNav;
 
-},{}],49:[function(require,module,exports){
+},{}],50:[function(require,module,exports){
 'use strict';
 
 var _topNav = require('./components/topNav');
@@ -4258,6 +4285,8 @@ var _tabs = require('./components/tabs');
 
 var _tabs2 = _interopRequireDefault(_tabs);
 
+var _dropdown = require('./components/dropdown');
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 (function () {
@@ -4271,9 +4300,11 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 		_bonus2.default;
 	} else if (document.body.classList.contains('Banca')) {
 		(0, _tabs2.default)();
+	} else if (document.body.classList.contains('ReglasDeportes')) {
+		(0, _dropdown.initAcc)();
 	}
 })();
 
-},{"./components/bonus":44,"./components/modal-login":45,"./components/tabs":46,"./components/tns-slider":47,"./components/topNav":48}]},{},[49]);
+},{"./components/bonus":44,"./components/dropdown":45,"./components/modal-login":46,"./components/tabs":47,"./components/tns-slider":48,"./components/topNav":49}]},{},[50]);
 
 //# sourceMappingURL=scripts-min.js.map

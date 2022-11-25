@@ -38,7 +38,7 @@
 				},
 				{
 					"text": "Caballos en linea",
-					"src": "#"
+					"src": "/caballos.html"
 				},
 				{
 					"text": "Registrate Aqui",
@@ -46,7 +46,7 @@
 				},
 				{
 					"text": "Acerca de Nosotros",
-					"src": "#"
+					"src": "/nosotros.html"
 				}
 			]
 		},
@@ -62,11 +62,11 @@
 				},
 				{
 					"text": "Agentes",
-					"src": "#"
+					"src": "https://adm.moneybet.ag/login"
 				},
 				{
 					"text": "Afiliados",
-					"src": "#"
+					"src": "https://affiliates.moneybet.ag/home/landing"
 				}
 			]
 		},
@@ -74,31 +74,31 @@
 			"footerColum": [
 				{
 					"text": "Terminos y Condiciones",
-					"src": "#"
+					"src": "/terminos.html"
 				},
 				{
 					"text": "Juego Responsable",
-					"src": "#"
+					"src": "/juegoresponsable.html"
 				},
 				{
 					"text": "Autoexclusion",
-					"src": "#"
+					"src": "/autoexclusion.html"
 				},
 				{
 					"text": "Politica de Reclamos",
-					"src": "#"
+					"src": "/politicareclamos.html"
 				},
 				{
 					"text": "AML",
-					"src": "#"
+					"src": "/aml.html"
 				},
 				{
 					"text": "Juego Justo",
-					"src": "#"
+					"src": "/juegojusto.html"
 				},
 				{
 					"text": "Politica de Privacidad",
-					"src": "#"
+					"src": "privaciadad.html"
 				}
 			]
 		},
@@ -106,28 +106,17 @@
 			"footerColum": [
 				{
 					"text": "Reglas de la casa",
-					"src": "#"
+					"src": "/reglascasa.html"
 				},
 				{
 					"text": "Reglas de Deportes",
-					"src": "#"
+					"src": "/reglasdeportes.html"
 				},
 				{
 					"text": "reglas de Casino",
-					"src": "#"
+					"src": "/reglascasino.html"
 				}
 			]
-		}
-	],
-	"socialicon": [
-		{
-			"src": "assets/img/home/desktop/footer/facebook.png"
-		},
-		{
-			"src": "assets/img/home/desktop/footer/inst.png"
-		},
-		{
-			"src": "assets/img/home/desktop/footer/18=.png"
 		}
 	],
 	"sliderHome": [
@@ -280,5 +269,47 @@
             "name": "DE REEMBOLSO DIARIO EN CABALLOS ",
             "text": "Pagos diarios, basado en el monto arriesgado del día anterior. Gane o pierda, cuando usted juegue, nosotros pagamos. No hay rollovers.<br><br>Esta promoción no puede ser combinada con otros reembolsos.<br><br>No hay requisitos mínimos de volumen diario y no hay un máximo de cuánto puede ganar<br><br>No importa si gane o pierda, nosotros le acreditamos el reembolso basado en el volumen y la categoría de la pista<br><br>"
         }
-    ]
+    ],
+	"bets" : [
+		{
+			"td1" : "Pro Football",
+			"td2" : "55 minutos de juego"
+		},
+		{
+			"td1" : "College Football",
+			"td2" : "55 minutos de juego"
+		},
+		{
+			"td1" : "Pro Basketball",
+			"td2" : "55 minutos de juego"
+		},
+		{
+			"td1" : "College Basketball",
+			"td2" : "55 minutos de juego"
+		},
+		{
+			"td1" : "Hockey",
+			"td2" : "55 minutos de juego"
+		},
+		{
+			"td1" : "Baseball Sides",
+			"td2" : "5 entradas (4 1/2 si el equipo de casa está ganando)"
+		},
+		{
+			"td1" : "Baseball Totals",
+			"td2" : "9 entradas (8 1/2 si el equipo de casa está ganando)"
+		},
+		{
+			"td1" : "Run Lines",
+			"td2" : "9 entradas (8 1/2 si el equipo de casa está ganando)"
+		},
+		{
+			"td1" : "Tennis",
+			"td2" : "Un servicio"
+		},
+		{
+			"td1" : "Soccer",
+			"td2" : "Si un partido es suspendido antes de completarse el tiempo del juego, y no se completa el mismo día, las apuestas sobre el resultado del partido se considerarán nulas y todas las apuestas seran devueltas. Incluye Goal Lines, Money lines and Totals."
+		}
+	]
 }
