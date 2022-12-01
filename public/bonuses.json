@@ -56,5 +56,63 @@
             "name": "DE REEMBOLSO DIARIO EN CABALLOS ",
             "text": "Pagos diarios, basado en el monto arriesgado del día anterior. Gane o pierda, cuando usted juegue, nosotros pagamos. No hay rollovers.<br><br>Esta promoción no puede ser combinada con otros reembolsos.<br><br>No hay requisitos mínimos de volumen diario y no hay un máximo de cuánto puede ganar<br><br>No importa si gane o pierda, nosotros le acreditamos el reembolso basado en el volumen y la categoría de la pista<br><br>"
         }
+    ],
+    "enbonuses": [
+        {
+            "img": "../assets/img/english/bonus/100 nbonus.jpg",
+            "imgMob": "../assets/img/english/bonus/100 nbonus.jpg",
+            "percentage": "100%",
+            "name": "SPORTS WELCOME BONUS",
+            "text": "You will receive a 100% bonus on your qualifying INITIAL deposit only.<br><br>A minimum deposit of $20 is required to qualify for the bonus.<br><br>The maximum bonus per deposit is $250<br><br>Bonus awarded as Free Play money.<br><br>There is a 12X (Twelve times) rollover requirement associated with this promotion.<br><br>Rollover (w) is calculated based on your deposit (d) plus bonus, (b) multiplied by the rollover requirement of your bonus (r). Rollover Formula w = (d+b)* r<br><br>Please note that only the lowest amount between the risk and the win counts towards your rollover requirement. Horses, Casino, Poker and Live Betting action doesn't count towards the required roll.<br><br>To receive the bonus, you must use Promo Code <strong>MBSPORTS100</strong><br><br>This promotion is non-transferable.<br><br>The free plays can only be used on straight bets up to -150. They cannot be used in the Racebook, Casino, Poker, or Live Betting<br><br><strong>MONEYBET</strong> reserves the right to alter or amend the Terms and Conditions of this promotion at any time without notice. <br><br>For additional information regarding bonuses and betting limits please visit our <a class='linkTerms' href='#'>Terms and Conditions</a> <br><br>"
+        },
+        {
+            "img": "../assets/img/english/bonus/100 casino bonus.jpg",
+            "imgMob": "../assets/img/english/bonus/100 casino bonus.jpg",
+            "percentage": "100%",
+            "name": "Welcome Casino Bonus",
+            "text": "You will receive a 100% bonus on your qualifying INITIAL deposit only.<br><br> A minimum deposit of $10 is required to qualify for the bonus.<br><br> The maximum amount awarded for this bonus is $1000<br><br> The maximum cash out for this bonus is $1500<br><br> There is a 50X (Fifty times) rollover requirement associated with this promotion.<br><br> Deposits made via Credit Card are eligible for this bonus, with a 40X (Forty times rollover)<br><br> The Bonus applies ONLY for online casinos.<br><br> Bonuses are for all players<br><br> To receive the bonus, you must use Promo Code <strong>MBCASINO100</strong><br><br> <strong>MONEYBET</strong> reserves the right to alter or amend the Terms and Conditions of this promotion at any time without notice. <br><br> For additional information regarding bonuses and betting limits please visit our <a class='linkTerms' href='#'>Terms and Conditions</a> <br><br>"
+        },
+        {
+            "img": "../assets/img/english/bonus/50 bonus.jpg",
+            "imgMob": "../assets/img/english/bonus/50 bonus.jpg",
+            "percentage": "50%",
+            "name": "SPORTS WELCOME BONUS",
+            "text": "You will receive a 50% bonus on your qualifying INITIAL deposit only.<br><br>A minimum deposit of $20 is required to qualify for the bonus.<br><br>The maximum bonus per deposit is $125<br><br>Bonus awarded as Free Play money.<br><br>There is a 10X (Ten times) rollover requirement associated with this promotion.<br><br>Rollover (w) is calculated based on your deposit (d) plus bonus, (b) multiplied by the rollover requirement of your bonus (r). Rollover Formula w = (d+b)* r<br><br>Please note that only the lowest amount between the risk and the win counts towards your rollover requirement. Horses, Casino, Poker and Live Betting action doesn't count towards the required roll.<br><br>To receive the bonus, you must use Promo Code <strong>MBSPORTS50</strong><br><br>This promotion is non-transferable.<br><br>The free plays can only be used on straight bets up to (insert odds). They cannot be used in the Racebook, Casino, Poker, or Live Betting<br><br><strong>MONEYBET</strong> reserves the right to alter or amend the Terms and Conditions of this promotion at any time without notice. <br><br>For additional information regarding bonuses and betting limits please visit our <a class='linkTerms' href='#'>Terms and Conditions</a> <br><br>"
+        },
+        {
+            "img": "../assets/img/english/bonus/25 reload bonus.jpg",
+            "imgMob": "../assets/img/english/bonus/25 reload bonus.jpg",
+            "percentage": "25%",
+            "name": "SPORTS WELCOME BONUS",
+            "text": "You will receive a 25%  bonus on your qualifying INITIAL deposit only.<br><br>A minimum deposit of $20 is required to qualify for the bonus.<br><br>The maximum bonus per deposit is $75<br><br>Bonus awarded as Free Play money.<br><br>There is a 8X (Eight times) rollover requirement associated with this promotion.<br><br>Rollover (w) is calculated based on your deposit (d) plus bonus, (b) multiplied by the rollover requirement of your bonus (r). Rollover Formula w = (d+b)* r<br><br>Please note that only the lowest amount between the risk and the win counts towards your rollover requirement. Horses, Casino, Poker and Live Betting action doesn't count towards the required roll.<br><br>To receive the bonus, you must use Promo Code <strong>MBSPORTS25</strong><br><br>This promotion is non-transferable.<br><br>The free plays can only be used on straight bets up to (insert odds). They cannot be used in the Racebook, Casino, Poker, or Live Betting<br><br><strong>MONEYBET</strong> reserves the right to alter or amend the Terms and Conditions of this promotion at any time without notice. <br><br>Para más información acerca de límites de bonos y reembolsos, por favor visite nuestros <a class='linkTerms' href='#'>Términos y Condiciones</a><br><br>"
+        },
+        {
+            "img": "../assets/img/english/bonus/25 spins.jpg",
+            "imgMob": "../assets/img/english/bonus/25 spins.jpg",
+            "percentage": "25%",
+            "name": "RELOAD BONUS",
+            "text": "You will receive a 25% bonus on your qualifying RELOAD deposit only.<br><br>A minimum deposit of  $20 is required to qualify for the bonus.<br><br>The maximum bonus per deposit is $250<br><br>Bonus awarded as Free Play money.<br><br>There is a 8X (Eight times) rollover requirement associated with this promotion.<br><br>Rollover (w) is calculated based on your deposit (d) plus bonus, (b) multiplied by the rollover requirement of your bonus (r). Rollover Formula w = (d+b)* r<br><brPlease note that only the lowest amount between the risk and the win counts towards your rollover requirement. Horses, Casino, Poker and Live Betting action doesn't count towards the required roll.<br><br>To receive the bonus, you must use Promo Code <strong>BETRELOAD25</strong><br><br>This promotion is non-transferable.<br><br>The free plays can only be used on straight bets up to -150. They cannot be used in the Racebook, Casino, Poker, or Live Betting<br><br><strong>MONEYBET</strong> reserves the right to alter or amend the Terms and Conditions of this promotion at any time without notice.  <br><br>For additional information regarding bonuses and betting limits please visit our <a class='linkTerms' href='#'>Terms and Conditions</a> <br><br>"
+        },
+        {
+            "img": "../assets/img/english/bonus/50 reload casino bonus.jpg",
+            "imgMob": "../assets/img/english/bonus/50 reload casino bonus.jpg",
+            "percentage": "50%",
+            "name": "CASINO RELOAD BONUS",
+            "text": "You will receive a 50% bonus on your qualifying RELOAD deposit only.<br><br> A minimum deposit of $10 is required to qualify for the bonus. <br><br> The maximum amount awarded for this bonus is $1000 <br><br>The maximum cash out for this bonus is $1000 <br><br>There is a 40X (Forty times) rollover requirement associated with this promotion.<br><br>Deposits made via Credit Card are eligible for this bonus, with a 30X (Thirty times rollover)<br><br>The Bonus applies ONLY for online casinos.<br><br>Bonuses are for all players<br><br>To receive the bonus, you must use Promo Code <strong>MBRELOAD50</strong><br><br><strong>MONEYBET</strong> reserves the right to alter or amend the Terms and Conditions of this promotion at any time without notice. <br><br>Para más información acerca de límites de bonos y reembolsos, por favor visite nuestros <a class='linkTerms' href='#'>Términos y Condiciones</a><br><br>"
+        },
+        {
+            "img": "../assets/img/english/bonus/25 spins.jpg",
+            "imgMob": "../assets/img/english/bonus/25 spins.jpg",
+            "percentage": "25%",
+            "name": "FREE SPINS",
+            "text": "You will receive a 25 FREE SPINS bonus on your qualifying INITIAL deposit only.<br><br>A minimum deposit of $10 is required to qualify for the bonus.<br><br>The maximum amount awarded up to 25 Spins<br><br>The maximum cash out for this bonus is $50<br><br>There is a 40X (Forty times) rollover requirement associated with this promotion.<br><br>Deposits made via Credit Card are eligible for this bonus, with a  40X (Forty times)<br><br>The Bonus applies ONLY for online casinos.<br><br>Bonuses are for all players<br><br>To receive the bonus, you must use Promo Code <strong>25MBSPINS</strong><br><br><strong>MONEYBET</strong> reserves the right to alter or amend the Terms and Conditions of this promotion at any time without notice. <br><br>For additional information regarding bonuses and betting limits please visit our <a class='linkTerms' href='#'>Terms and Conditions</a> <br><br>No Aplica con otras <strong>PROMOCIONES</strong><br><br>"
+        },
+        {
+            "img": "../assets/img/english/bonus/8 rebate.jpg",
+            "imgMob": "../assets/img/english/bonus/8 rebate.jpg",
+            "percentage": "8%",
+            "name": "DAILY HORSE REBATE",
+            "text": "Paid daily, based on the handle for the previous day. Win or lose, when you play we pay, no rollovers.<br><br>This promotion cannot be combined with other rebates.<br><br>There are no minimum daily volume requirements and there is no maximum on how much you can earn.<br><br>It doesn't matter if you win or lose, we will credit you a rebate based on your volume and track categories<br><br>"
+        }
     ]
 }

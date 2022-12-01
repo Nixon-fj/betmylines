@@ -41,6 +41,7 @@
 			}
 		}
 		@include from(l) {
+			display: flex;
 			align-self: center;
 			margin: 0;
 			padding: 0;
@@ -93,5 +94,13 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
+	}
+	&__lang{
+		display: inline-block;
+		margin: auto 1rem;
+	}
+	&__imglang{
+		max-width: 25px;
+		height: auto;
 	}
 }

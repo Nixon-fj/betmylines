@@ -1,0 +1,15 @@
+extends ../config/template
+append config
+	-currentPage		= "Home-page"
+	-siteName			= 'MoneyBet' 
+	-content			= 'content'
+	-pageDescription	= 'Home page MoneyBet'
+block main-header
+block main-container
+	include ../components/slider-homepage
+	include ../components/section-buttons
+	include ../components/promotion-home
+block main-footer
+	include ../components/carousel-mp
+	include ../components/section-contacto
+block scripts 
