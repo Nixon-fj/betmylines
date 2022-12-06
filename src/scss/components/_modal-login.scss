@@ -75,13 +75,13 @@
                 background-color: var(--color-blue);
                 border-radius: 5px;
                 padding: 0.5rem;
-                border: 1px solid var(--color-yellow);
+                border: 1px solid var(--color-white);
                 color: var(--color-white);
                 margin: 0.5rem 0;
                 margin-bottom: 2rem;
 
                 &::placeholder {
-                    color: var(--color-text);
+                    color: var(--color-white);
                 }
             }
 

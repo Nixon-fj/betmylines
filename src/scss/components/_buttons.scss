@@ -17,15 +17,23 @@
     }
     &__login {
         border: 1px solid var(--color-yellow);
+        &:hover{
+            border: 1px solid var(--color-white);
+            color: var(--color-white);
+        }
     }
     &__register {
-        color: var(--color-white);
+        color: var(--color-blue);
         background-color: var(--color-yellow);
+        &:hover{
+            border: 1px solid var(--color-white);
+            color: var(--color-white);
+        }
     }
     &__section-buttons {
         margin: 0.5rem;
         margin-bottom: 0.5rem;
-        color: var(--color-white);
+        color: var(--color-blue);
         background-color: var(--color-yellow);
         padding: 0.5 2rem;
         &:hover {
@@ -36,7 +44,7 @@
     &__registro {
         background-color: var(--color-yellow);
         border: 1px solid var(--color-yellow);
-        color: var(--color-white);
+        color: var(--color-blue);
         padding: 1rem 2rem;
         font-size: 18px;
         font-weight: bold;
@@ -59,7 +67,7 @@
     &__gallos {
         background-color: var(--color-yellow);
         border: 1px solid var(--color-yellow);
-        color: var(--color-white);
+        color: var(--color-blue);
         padding: 0.5rem 3rem;
         font-size: 18px;
         font-weight: bold;
@@ -68,7 +76,7 @@
     &__footer{
         background-color: var(--color-yellow);
         border: 1px solid var(--color-yellow);
-        color: var(--color-white);
+        color: var(--color-blue);
         padding: 1rem 2rem;
         font-size: 18px;
         font-weight: bold;

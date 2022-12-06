@@ -65,7 +65,9 @@
                         <li class="top-nav__li"><a class="top-nav__anchor" href="/caballos.html">Caballos</a></li>
                         <li class="top-nav__li"><a class="top-nav__anchor" href="/gallos.html">Peleas de Gallos</a></li>
                         <li class="top-nav__li"><a class="top-nav__anchor" href="/banca.html">Banca</a></li>
-            <div class="top-nav__lang"><a class="btn__lang" href="#"><img class="top-nav__imglang" src="../assets/img/usa.png" alt="flag icon"></a></div>
+            <li class="top-nav__li">
+              <div class="top-nav__lang"><a class="btn__lang" href="#"><img class="top-nav__imglang" src="../assets/img/usa.png" alt="flag icon"></a></div>
+            </li>
           </ul>
           <div class="top-nav__btn"><a class="btn btn__login" href="#" id="btnlogin">Ingresar</a><a class="btn btn__register" href="registrarse.html">Registrarse</a></div>
           <button class="top-nav__mb-iconMenu hamburger hamburger--slider-r" type="button" aria-label="hamburger"><span class="hamburger-box"><span class="hamburger-inner"></span></span></button>
@@ -148,15 +150,8 @@ d. Cumplir estrictamente las leyes contra el Lavado de Dinero y la Financiación
             <li><a class="bottom-nav__anchor" href="/reglascasa.html">Reglas de la casa</a></li>
             <li><a class="bottom-nav__anchor" href="/reglasdeportes.html">Reglas de Deportes</a></li>
             <li><a class="bottom-nav__anchor" href="/reglascasino.html">reglas de Casino</a></li>
-            <li>
-              <div class="bottom-nav__socialicon">
-                <p class="bottom-nav__title">CONECTAR</p>
-                <div class="bottom-nav__socialicons"></div>
-              </div>
-            </li>
           </ul>
         </div>
-        <div class="bottom-nav__curacao"><img class="bottom-nav__curacao__img" src="assets/img/home/desktop/footer/logo.png" alt="image curacao" width="71" height="79"></div>
       </nav>
       <section class="modal-login" id="modal-login">
         <div class="login"> <a class="login__close" href="#"></a>
@@ -166,8 +161,8 @@ d. Cumplir estrictamente las leyes contra el Lavado de Dinero y la Financiación
             </div>
             <form name="LoginForm" action="javascript:void(0)" onsubmit="BackEndLogin(this); return false">
               <div class="login__content__form">
-                <label class="login__content__form__label" for="username">Nombre de usuario</label>
-                <input class="login__content__form__input form-control" type="text" placeholder="Usuario o email" name="username" required>
+                <label class="login__content__form__label" for="username">Correo electronico</label>
+                <input class="login__content__form__input form-control" type="text" placeholder="Correo electronico" name="username" required>
                 <label class="login__content__form__label" for="password">Contraseña</label>
                 <input class="login__content__form__input form-control" type="password" placeholder="Contraseña" name="password" required>
                 <div class="text-center mt-2"><small class="text-danger" name="msj_error_lg"></small></div>

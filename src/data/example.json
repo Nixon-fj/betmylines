@@ -121,20 +121,20 @@
 	],
 	"sliderHome": [
 		{
-			"src": "assets/img/home/desktop/gallos_slider.jpg",
-			"imgMob": "assets/img/home/mobile/gallos_slider.jpg"
+			"src": "assets/img/home/gallos_slider.jpg",
+			"imgMob": "assets/img/home/gallos_slider-mob.jpg"
 		},
 		{
-			"src": "assets/img/home/desktop/soccer_slider.jpg",
-			"imgMob": "assets/img/home/mobile/soccer_slider.jpg"
+			"src": "assets/img/home/sliders_futbol.jpg",
+			"imgMob": "assets/img/home/sliders_futbol-mob.jpg"
 		},
 		{
-			"src": "assets/img/home/desktop/casino_slider.jpg",
-			"imgMob": "assets/img/home/mobile/casino_mobile.jpg"
+			"src": "assets/img/home/casino_slider.jpg",
+			"imgMob": "assets/img/home/casino_mobile.jpg"
 		},
 		{
-			"src": "assets/img/home/desktop/caballos_slider.jpg",
-			"imgMob": "assets/img/home/mobile/horses_slider.jpg"
+			"src": "assets/img/home/sliders_caballos.jpg",
+			"imgMob": "assets/img/home/sliders_caballos-mob.jpg"
 		}
 	],
 	"metodoPago": [
@@ -164,6 +164,7 @@
 		}
 	],
 	"homeBonus": [
+		
 		{
 			"img": "assets/img/home/desktop/bonus/100_bonus.jpg",
 			"src": "/bonus.html"
@@ -357,7 +358,7 @@
 					"src": "/en/caballos.html"
 				},
 				{
-					"text": "Sing me up!",
+					"text": "Sign up!",
 					"src": "/en/registrarse.html"
 				},
 				{
@@ -441,16 +442,16 @@
 			"imgMob": "../assets/img/english/sliders_gallos-mob.jpg"
 		},
 		{
-			"src": "../assets/img/english/sliders_futbol.jpg",
-			"imgMob": "../assets/img/english/sliders_futbol-mob.jpg"
+			"src": "../assets/img/english/slider_soccer.jpg",
+			"imgMob": "../assets/img/english/soccer_slider.jpg"
 		},
 		{
 			"src": "../assets/img/home/desktop/casino_slider.jpg",
 			"imgMob": "../assets/img/home/mobile/casino_mobile.jpg"
 		},
 		{
-			"src": "../assets/img/english/sliders_caballos.jpg",
-			"imgMob": "../assets/img/english/sliders_caballos-mob.jpg"
+			"src": "../assets/img/english/caballos_slider.jpg",
+			"imgMob": "../assets/img/english/horses_slider.jpg"
 		}
 	],
 	"enmetodoPago": [
@@ -481,7 +482,7 @@
 	],
 	"enhomeBonus": [
 		{
-			"img": "../assets/img/english/promos home/bonus_25.jpg",
+			"img": "../assets/img/english/promos home/bonus_100.jpg",
 			"src": "/en/bonus.html"
 		},
 		{
@@ -489,7 +490,7 @@
 			"src": "/en/bonus.html"
 		},
 		{
-			"img": "../assets/img/english/promos home/bonus_100.jpg",
+			"img": "../assets/img/english/promos home/bonus_25.jpg",
 			"src": "/en/bonus.html"
 		}
 	],
@@ -551,8 +552,8 @@
             "text": "You will receive a 50% bonus on your qualifying INITIAL deposit only.<br><br>A minimum deposit of $20 is required to qualify for the bonus.<br><br>The maximum bonus per deposit is $125<br><br>Bonus awarded as Free Play money.<br><br>There is a 10X (Ten times) rollover requirement associated with this promotion.<br><br>Rollover (w) is calculated based on your deposit (d) plus bonus, (b) multiplied by the rollover requirement of your bonus (r). Rollover Formula w = (d+b)* r<br><br>Please note that only the lowest amount between the risk and the win counts towards your rollover requirement. Horses, Casino, Poker and Live Betting action doesn't count towards the required roll.<br><br>To receive the bonus, you must use Promo Code <strong>MBSPORTS50</strong><br><br>This promotion is non-transferable.<br><br>The free plays can only be used on straight bets up to (insert odds). They cannot be used in the Racebook, Casino, Poker, or Live Betting<br><br><strong>MONEYBET</strong> reserves the right to alter or amend the Terms and Conditions of this promotion at any time without notice. <br><br>For additional information regarding bonuses and betting limits please visit our <a class='linkTerms' href='#'>Terms and Conditions</a> <br><br>"
         },
         {
-            "img": "../assets/img/english/bonus/25 reload bonus.jpg",
-            "imgMob": "../assets/img/english/bonus/25 reload bonus.jpg",
+            "img": "../assets/img/english/bonus/25-bienv.jpg",
+            "imgMob": "../assets/img/english/bonus/25-bienv.jpg",
             "percentage": "25%",
             "name": "SPORTS WELCOME BONUS",
             "text": "You will receive a 25%  bonus on your qualifying INITIAL deposit only.<br><br>A minimum deposit of $20 is required to qualify for the bonus.<br><br>The maximum bonus per deposit is $75<br><br>Bonus awarded as Free Play money.<br><br>There is a 8X (Eight times) rollover requirement associated with this promotion.<br><br>Rollover (w) is calculated based on your deposit (d) plus bonus, (b) multiplied by the rollover requirement of your bonus (r). Rollover Formula w = (d+b)* r<br><br>Please note that only the lowest amount between the risk and the win counts towards your rollover requirement. Horses, Casino, Poker and Live Betting action doesn't count towards the required roll.<br><br>To receive the bonus, you must use Promo Code <strong>MBSPORTS25</strong><br><br>This promotion is non-transferable.<br><br>The free plays can only be used on straight bets up to (insert odds). They cannot be used in the Racebook, Casino, Poker, or Live Betting<br><br><strong>MONEYBET</strong> reserves the right to alter or amend the Terms and Conditions of this promotion at any time without notice. <br><br>Para más información acerca de límites de bonos y reembolsos, por favor visite nuestros <a class='linkTerms' href='#'>Términos y Condiciones</a><br><br>"

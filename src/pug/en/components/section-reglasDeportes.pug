@@ -11,7 +11,7 @@ div(class='sport-rules-container')
 			col(class='sport-rules__table--col1')
 			col(class='sport-rules__table--col2')
 		tbody(class="sport-rules__table--tbody")
-			-for(var i = 0; i < bets.length ; i++)
-				-var bet = bets[i]
+			-for(var i = 0; i < enbets.length ; i++)
+				-var bet = enbets[i]
 				+bets(bet.td1, bet.td2)
 	include ../components/dropdown
