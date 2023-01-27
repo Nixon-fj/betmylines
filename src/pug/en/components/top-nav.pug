@@ -1,0 +1,16 @@
+nav(class='top-nav')
+	div(class='top-nav__container')
+		a(href='./', class='top-nav__link')
+			picture
+				source(media="(min-width: 350px)", srcset="../assets/img/home/desktop/logo.png")
+				img(src='../assets/img/home/desktop/logo peq/Image 10.png', alt='logo', class='top-nav__logo' width="209" height="58")
+		ul(class='top-nav__menu')
+			include ../config/mixins/mixin-topnav
+			li(class='top-nav__li'): div(class='top-nav__lang')
+				a(class='btn__lang' href='#'): img(class="top-nav__imglang", src="../assets/img/spain.png", alt="flag icon")
+		div(class='top-nav__btn')
+			a(class='btn btn__login' href='#' id='btnlogin') Login
+			a(class='btn btn__register' href='registrarse.html') Signup
+		button(type='button', class='top-nav__mb-iconMenu hamburger hamburger--slider-r' aria-label="hamburger")
+			span.hamburger-box
+				span.hamburger-inner

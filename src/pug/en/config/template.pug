@@ -1,0 +1,40 @@
+block config
+	include vars
+doctype html
+html(lang='en' prefix='og: http://ogp.me/ns#', class='no-js')
+	<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+	<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+	<!--[if IE 8]><html class="no-js lt-ie9" lang=""> <![endif]-->
+	<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+	head
+		include utilis/metatags 
+		script(src="https://kit.fontawesome.com/20f3c29ee8.js" crossorigin="anonymous")
+		//- link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/tiny-slider.css')
+		link(rel="stylesheet" href="../assets/css/styles.css")
+		title= currentPage.slice(0,1).toUpperCase() + currentPage.slice(1) + " | " + siteName
+
+		//- chat
+		script.
+			var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+			(function(){
+			var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+			s1.async=true;
+			s1.src='https://embed.tawk.to/63790aedb0d6371309cff94d/1gi8dipof';
+			s1.charset='UTF-8';
+			s1.setAttribute('crossorigin','*');
+			s0.parentNode.insertBefore(s1,s0);
+			})();
+
+	body(class=currentPage, itemscope itemtype="http://schema.org/WebPage")
+		//- here start the Main Header
+		header(class='main-header')
+			include ../components/top-nav
+			block main-header
+		main(class='main-container')
+			block main-container
+		footer(class='main-footer')
+			block main-footer
+			include ../components/footer-nav
+			include ../components/modal-login 
+		script(type="module" src="../assets/js/scripts-min.js")
+		block scripts

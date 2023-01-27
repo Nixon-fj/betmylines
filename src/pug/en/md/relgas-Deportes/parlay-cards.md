@@ -1,0 +1,1 @@
+In the event of a suspended or canceled game, the Parlay Card will have action and the game in questions will be taken out of the Card (Example: a 5 team Parlay Card will become a 4 team Parlay Card.) In 3 team Parlay Cards if one of the games is suspended or cancelled the Parlay Card will have no action and the funds will be reimbursed to the client.

@@ -1,0 +1,8 @@
+section(class="section-apuestas")
+    h1 RACEBOOK
+    div(class="caballos")
+        div(class="caballos__container")
+            include:markdown-it(html) ../md/content-caballos.md
+            div(class="caballos__table")
+                include:markdown-it(html) ../md/content-caballos-table.md
+            a(class="btn btn__gallos" href="/registrarse.html") Signup

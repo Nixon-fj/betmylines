@@ -10,11 +10,15 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        overflow: auto;
     }
     &__table{
-        margin: 0 auto;
-        max-width: 1200px;
+        overflow: scroll;
+        table{
+            border-collapse: collapse;
+        }
+        th, td{
+            border: 1px solid blue;
+        }
     }
     &table, th, td{
         padding: 0.5rem 4rem;

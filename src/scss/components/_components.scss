@@ -9,9 +9,12 @@
 @import "section-home-promotion";
 @import "section-buttons";
 @import "modal-login";
-@import "registrarse";
 @import "terminos-bonus";
 @import "providers";
+
+@import "links-footer";
+@import 'components/dropdown';
+@import 'components/sport-rules';
 
 //pages
 @import "page-bonus";
@@ -20,3 +23,5 @@
 @import "page-banca";
 @import "page-gallos";
 @import "page-caballos";
+@import "page-registro";
+@import "page-deportes";

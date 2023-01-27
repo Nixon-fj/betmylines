@@ -1,14 +1,24 @@
 @import "../config/vars";
-.section-gallos{
-    h1{
+
+.section-gallos {
+    h1 {
         @include section-title;
     }
 }
-.gallos{
-    &__container{
+
+.gallos {
+    &__container {
         @include container-general;
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
+}
+
+.video{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

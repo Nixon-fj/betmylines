@@ -1,0 +1,12 @@
+extends ../config/template
+append config
+	-currentPage		= "Bonuses"
+	-siteName			= 'MoneyBet' 
+	-content			= 'content'
+	-pageDescription	= 'Page bonuses MoneyBet'
+block main-header
+block main-container
+	include ../components/page-bonus
+block main-footer
+	include ../components/terminos-bonus
+block scripts 

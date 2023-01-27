@@ -1,0 +1,13 @@
+.container-registro{
+    width: 100%;
+    height: 800px;
+    background-color: var(--color-blue);
+    &__form{
+        padding: 2rem 0;
+    }
+    &__iframe{
+        width: 100%;
+        height: 800px;
+        border: none;
+    }
+}

@@ -10,7 +10,6 @@
 	display: flex;
 	justify-content: center;
 	z-index: 4;
-
 	&__container {
 		display: flex;
 		justify-content: space-between;
@@ -19,16 +18,13 @@
 		max-width: 1200px;
 		padding: 0 15px;
 	}
-
 	&__link {
 		align-self: center;
 	}
-
 	&__logo {
 		max-height: 2rem;
 		display: block;
 	}
-
 	&__menu {
 		@include fromTo(s, l) {
 			position: fixed;
@@ -40,48 +36,41 @@
 			overflow-y: auto;
 			top: var(--header-height);
 			right: -260px;
-
 			&.is-active {
 				right: 0;
 			}
 		}
-
 		@include from(l) {
+			display: flex;
 			align-self: center;
 			margin: 0;
 			padding: 0;
 		}
 	}
-
 	&__li {
 		@include fromTo(s, l) {
 			display: block;
 			padding: 10px 0;
 			margin: 0;
-
 		}
-
 		margin-left: 1em;
 		list-style-type: none;
 		display: inline-block;
 	}
-
 	&__anchor {
 		@include fromTo(s, l) {
 			display: block;
 		}
-		&:hover{
-			color: var(--color-white);
+		&:hover {
+			color: var(--color-yellow);
 			text-decoration: none;
 		}
 	}
-
 	&__mb-iconMenu {
 		position: relative;
 		align-self: center;
 		top: 3px;
 		padding: 0;
-
 		span {
 			&.hamburger-inner {
 				background: var(--color-yellow);
@@ -91,23 +80,26 @@
 				}
 			}
 		}
-
 		&:focus {
 			outline: 0 !important;
 			outline: thin dotted;
 			outline: 5px auto -webkit-focus-ring-color;
 			outline-offset: -2px;
 		}
-
 		@include from(l) {
 			display: none;
 		}
 	}
-
-	&__btn{
+	&__btn {
 		display: flex;
 		justify-content: center;
 		align-items: center;
 	}
-
+	&__lang{
+		display: inline-block;
+	}
+	&__imglang{
+		max-width: 25px;
+		height: auto;
+	}
 }
