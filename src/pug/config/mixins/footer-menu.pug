@@ -1,0 +1,4 @@
+-for(i = 0; i < footerMenu.length; i++)
+    ul(class="s-cols-1")
+        -for(j = 0; j < footerMenu[i].footerColum.length; j++)
+            li: a(class="bottom-nav__anchor", href=`${footerMenu[i].footerColum[j].src}`)= footerMenu[i].footerColum[j].text

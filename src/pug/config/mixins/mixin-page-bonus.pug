@@ -1,8 +1,0 @@
-mixin sectionBonus(img, imgMob)
-    div(class='section-bonus__item')
-        picture
-            source(class='section-bonus__img', media="(min-width: 640px)", srcset=`${img}` width="401" height="237")
-            img(class='section-bonus__img', src=`${imgMob}`, alt="image bonus" width="342" height="203")
--for (var i = 0; i < bonuses.length; i++)
-    -var d = bonuses[i]
-    +sectionBonus(d.img, d.imgMob)

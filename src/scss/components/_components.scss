@@ -1,27 +1,5 @@
-// UI
-@import "top-nav";
-@import "bottom-nav";
-@import "buttons";
-@import "tns-single";
-@import "tns-slider-global";
-@import "tns-carousell";
-@import "section-contacto";
-@import "section-home-promotion";
-@import "section-buttons";
-@import "modal-login";
-@import "terminos-bonus";
-@import "providers";
+@import '../config/vars';
 
-@import "links-footer";
-@import 'components/dropdown';
-@import 'components/sport-rules';
-
-//pages
-@import "page-bonus";
-@import "page-apuestas-vivo";
-@import "page-casino";
-@import "page-banca";
-@import "page-gallos";
-@import "page-caballos";
-@import "page-registro";
-@import "page-deportes";
+@import './buttons';
+@import './footer-nav';
+@import './top-nav';

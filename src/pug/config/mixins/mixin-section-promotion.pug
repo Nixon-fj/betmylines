@@ -1,6 +1,0 @@
-mixin homeBonus(img, src)
-    div: div(class='tns-promotion__content'): a(href=`${src}` alt="bonus image")
-        img(class="tns-promotion__img", src=`${img}`, alt="bonus image" width="622" height="292")
--for (var i = 0; i < homeBonus.length; i++)
-    -var d = homeBonus[i]
-    +homeBonus(d.img, d.src) 

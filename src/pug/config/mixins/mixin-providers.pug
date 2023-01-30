@@ -1,6 +1,0 @@
-mixin providers(img)
-    div(class="providers__content s-40 m-25 l-15")
-        img(class="providers__img" src=`${img}`, alt="image providers" width="117" height="39")
--for (var i = 0; i < providers.length; i++)
-    -var d = providers[i]
-    +providers(d.img)

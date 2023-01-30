@@ -2,15 +2,17 @@ nav(class='top-nav')
 	div(class='top-nav__container')
 		a(href='./', class='top-nav__link')
 			picture
-				source(media="(min-width: 350px)", srcset="assets/img/home/desktop/logo.png")
-				img(src='assets/img/home/desktop/logo peq/Image 10.png', alt='logo', class='top-nav__logo' width="209" height="58")
+				source(media="(min-width: 350px)", srcset='assets/img/logo/logo.png')
+				img(src='assets/img/logo/logo.png', alt='logo', class='top-nav__logo' width="209" height="58")
 		ul(class='top-nav__menu')
-			include ../config/mixins/mixin-topnav
-			li(class='top-nav__li'): div(class='top-nav__lang')
-				a(class='btn__lang' href='#'): img(class="top-nav__imglang", src="../assets/img/usa.png", alt="flag icon")
+			include ../config/mixins/top-menu
 		div(class='top-nav__btn')
-			a(class='btn btn__login' href='#' id='btnlogin') Ingresar
-			a(class='btn btn__register' href='registrarse.html') Registrarse
+			div
+				a(class='btn' href='#') CLASIC
+				a(class='btn btn__betslip' href='#') BETSLIP
+			div(class='btn__telefono')
+				div(class='btn__telefono__icon-telefono'): img(src="assets/img/iconos/icon cel.png", alt="telefono")
+				span(class='btn__telefono__telefono__number') 800 256 4603
 		button(type='button', class='top-nav__mb-iconMenu hamburger hamburger--slider-r' aria-label="hamburger")
 			span.hamburger-box
 				span.hamburger-inner

@@ -1,0 +1,28 @@
+@import "../config/vars";
+.bottom-nav{
+    padding: 0.5rem;
+    background-color: var(--color-black);
+
+    &__image{
+        margin: 2rem auto;
+        max-width: 200px;
+        height: auto;
+    }
+    &__anchor{
+        color: var(--color-white);
+        &:hover{
+            color: var(--color-yellow-strong);
+        }
+    }
+
+}
+.section-footer {
+    .footer {
+        &__container {
+            @include container-general;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    }
+}

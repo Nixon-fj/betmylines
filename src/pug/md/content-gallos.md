@@ -1,1 +1,0 @@
-Este innovador producto te va a generar ganancias rápidas. Puedes disfrutar de los eventos de transmisión en vivo las 24 horas, los 7 días de la semana, en donde puedes jugar en más de 300 peleas por día.

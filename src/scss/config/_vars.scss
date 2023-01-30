@@ -2,19 +2,18 @@
 :root {
 	--header-height: 3rem;
 
-	@include from(l) {
+	@include from(l) { 
 		--header-height: 4rem;
 	}
 
 	//native color vars
-	--color-bg			: #fff;
-	--color-black		: #131314;
-	--color-white		: #fff;
-	--color-ligthgray	: #d3cdcd;
-	--color-yellow		: #f7c544;
-	--color-text		: #ffc400;
-	--color-blue		: #002cc5;
-	--color-gray        : #808080;
+	--color-black				: #000;
+	--color-gray			: #242323;
+	--color-white			: #fff;
+	--color-yellow-lite		: #fedb73;
+	--color-yellow-strong	: #ffcf3f;
+	--color-yellow-dark		: #c7982e;
+	--linear-gradient-gold  : linear-gradient(180deg, rgba(180,126,16,1) 0%, rgba(244,225,143,1) 30%, rgba(255,242,165,1) 50%, rgba(241,220,136,1) 70%, rgba(180,126,16,1) 100%);
 
 	// Font families
 	--font-size: 16px;

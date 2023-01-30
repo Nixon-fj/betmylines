@@ -1,5 +1,0 @@
-mixin socialicon(src)
-    div(class="bottom-nav__container-icon"): img(class="bottom-nav__icon", src=`${src}`, alt="social icon" width="26" height="26") 
--for (var i = 0; i < socialicon.length; i++)
-    -var d = socialicon[i]
-    +socialicon(d.src)
