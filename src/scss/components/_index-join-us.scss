@@ -1,0 +1,49 @@
+.joinUs {
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--color-gray);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+    @media (min-width: 768px) {
+        flex-direction: row;
+    }
+
+    &__card {
+        background: var(--linear-gradient-black);
+        border-radius: 20px;
+        margin: 0.5rem;
+
+        &__flex {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            &__text {
+                margin-left: 2rem;
+
+                &__title {
+                    font-size: 24px;
+                    color: var(--color-white);
+                    text-transform: uppercase;
+                }
+
+                &__link {
+                    display: flex;
+                    align-items: center;
+                    margin-right: 0.5rem;
+                    color: var(--color-yellow-strong);
+
+                    &:hover {
+                        color: var(--color-white);
+                        text-decoration: none;
+                    }
+                }
+
+
+            }
+        }
+    }
+}

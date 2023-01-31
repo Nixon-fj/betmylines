@@ -1,0 +1,11 @@
+mixin joinUs(title, linkName, url, img)
+    div(class="joinUs__card")
+        div(class="joinUs__card__flex")
+            div(class="joinUs__card__flex__text")
+                h3(class="joinUs__card__flex__text__title")= title 
+                a(class="joinUs__card__flex__text__link" href=`${url}`)= linkName
+            div(class="joinUs__card__flex__img"): img(src=`${img}`, alt="image")
+
+-for (var i = 0; i < joinUs.length; i++)
+    -var d = joinUs[i]
+    +joinUs(d.title, d.linkName, d.url, d.img)
