@@ -1,0 +1,10 @@
+mixin bannerIndex(bg, img, txt1, txt2)
+    div(class='banner-container')
+        div(class='banner-container__content')
+            div(class='banner-container__content__text')
+                p(class='banner-container__content__text__primary')= txt1
+                p= txt2
+            div(class='banner-container__content__img'): img(src=`${img}`, alt="image")
+-for (var i = 0; i < bannerIndex.length; i++)
+    -var d = bannerIndex[i]
+    +bannerIndex(d.bg, d.img, d.txt1, d.txt2)

@@ -75,7 +75,7 @@
 		padding: 0;
 		span {
 			&.hamburger-inner {
-				background: yellow;
+				background: var(--color-yellow-strong);
 				&::after,
 				&::before {
 					background: var(--color-yellow-strong);
@@ -104,5 +104,36 @@
 	&__imglang{
 		max-width: 25px;
 		height: auto;
+	}
+}
+.top-nav-mob{
+	display: none;
+	padding: 0.5rem 0;
+	background-color: var(--color-yellow-dark);
+	@media only screen and (max-width: 520px){
+		width: 100%;
+		position: fixed;
+		bottom: 0;
+		display: flex;
+		list-style: none;
+		justify-content: space-around;
+	}
+	&__li{
+		display: flex;
+		flex-direction: column;
+		justify-content: end;
+		align-items: center;
+	}
+	&__img{
+		max-width: 25px;
+		height: auto;
+	}
+	&__anchor{
+		color: var(--color-yellow-lite);
+	}
+}
+.hamburger {
+	@media only screen and (max-width: 520px){
+		display: none;
 	}
 }

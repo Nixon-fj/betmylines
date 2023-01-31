@@ -2,22 +2,27 @@
 	"topnavmenu": [
 		{
 			"text": "Sports",
+			"icon": "assets/img/iconos/sports.svg",
 			"src": "#"
 		},
 		{
 			"text": "Casino",
+			"icon": "assets/img/iconos/casino.svg",
 			"src": "#"
 		},
 		{
 			"text": "Live Wagering",
+			"icon": "assets/img/iconos/live-wagering.svg",
 			"src": "#"
 		},
 		{
 			"text": "Horses",
+			"icon": "assets/img/iconos/horses.svg",
 			"src": "#"
 		},
 		{
 			"text": "Referrals",
+			"icon": "assets/img/iconos/referrals.png",
 			"src": "#"
 		}
 	],
@@ -61,6 +66,27 @@
 					"src": "#"
 				}
 			]
+		}
+	],
+	"bannerIndex":[
+		{
+			"img": "assets/img/Home-page/jugador.png",
+			"txt1": "BET MY LINES TODAY",
+			"txt2": "AND START WINNING"
+		}
+	],
+	"joinUs": [
+		{
+			"title": "AFILIATE PROGRAM",
+			"linkName": "Join the house",
+			"url": "#",
+			"img": "assets/img/Home-page/COMPUTADORA.png"
+		},
+		{
+			"title": "REFER A FRIEND",
+			"linkName": "Refer now",
+			"url": "#",
+			"img": "assets/img/Home-page/AMIGOS.png"
 		}
 	]
 }
