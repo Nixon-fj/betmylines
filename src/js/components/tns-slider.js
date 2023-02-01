@@ -50,9 +50,9 @@ export const tnsSingle = () => {
   });
 };
 
-export const tnsPromotion = () => {
+export const tnsGamesIndex = () => {
   let slider = tns({
-    container: '#tnsPromotion',
+    container: '#tnsgames',
     items: 1,
     slideBy: 1,
     swipeAngle: false,

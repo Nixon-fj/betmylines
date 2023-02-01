@@ -88,5 +88,25 @@
 			"url": "#",
 			"img": "assets/img/Home-page/AMIGOS.png"
 		}
+	],
+	"indexGames": [
+		{
+			"title": "buy up to 6 points on",
+			"text": "mayor sports",
+			"url": "#",
+			"img": "assets/img/Home-page/Jugador-2.png"
+		},
+		{
+			"title": "parlays acepted",
+			"text": "mma- boxing",
+			"url": "#",
+			"img": "assets/img/Home-page/MMA.png"
+		},
+		{
+			"title": "over 500",
+			"text": "casino games",
+			"url": "#",
+			"img": "assets/img/Home-page/casino-games.png"
+		}
 	]
 }

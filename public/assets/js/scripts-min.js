@@ -4058,7 +4058,7 @@ exports.default = tabs;
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.tnsPromotion = exports.tnsSingle = exports.tnsCarousell = undefined;
+exports.tnsGamesIndex = exports.tnsSingle = exports.tnsCarousell = undefined;
 
 var _tinySlider = require('../../../node_modules/tiny-slider/src/tiny-slider');
 
@@ -4106,9 +4106,9 @@ var tnsSingle = exports.tnsSingle = function tnsSingle() {
   });
 };
 
-var tnsPromotion = exports.tnsPromotion = function tnsPromotion() {
+var tnsGamesIndex = exports.tnsGamesIndex = function tnsGamesIndex() {
   var slider = (0, _tinySlider.tns)({
-    container: '#tnsPromotion',
+    container: '#tnsgames',
     items: 1,
     slideBy: 1,
     swipeAngle: false,
@@ -4165,11 +4165,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 (function () {
 	(0, _topNav2.default)();
 	if (document.body.classList.contains('home') || document.body.classList.contains('Home-page')) {
-		(0, _tnsSlider.tnsSingle)();
-		(0, _tnsSlider.tnsPromotion)();
-		(0, _tnsSlider.tnsCarousell)();
-	} else if (document.body.classList.contains('Banca') || document.body.classList.contains('Banking')) {
-		(0, _tabs2.default)();
+		(0, _tnsSlider.tnsGamesIndex)();
 	} else if (document.body.classList.contains('ReglasDeportes') || document.body.classList.contains('Sport Rules')) {
 		(0, _dropdown.initAcc)();
 	}

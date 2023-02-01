@@ -1,0 +1,31 @@
+.games{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    &__container{
+        display: flex;
+        justify-content: center;
+
+        &__card{
+            background: var(--linear-gradient-black);
+            border-radius: 20px;
+            margin: 1rem 0.5rem;
+            &__flex{
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                &__text{
+                    padding: 1rem;
+                    color: var(--color-white);
+                    text-transform: uppercase;
+                    &__title{
+                        font-size: 12px;
+                    }
+                    &__text{
+                        color: var(--color-yellow-strong);
+                    }
+                }
+            }
+        }
+    }
+}

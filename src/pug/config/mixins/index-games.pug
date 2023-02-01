@@ -1,0 +1,11 @@
+mixin indexGames(title, text, url, img)
+    a(class="games__container__card" href=`${url}`)
+        div(class="games__container__card__flex")
+            div(class="games__container__card__flex__text")
+                h3(class="games__container__card__flex__text__title")= title 
+                p(class="games__container__card__flex__text__text")= text
+            div(class="games__container__card__flex__img"): img(src=`${img}`, alt="image")
+
+-for (var i = 0; i < indexGames.length; i++)
+    -var d = indexGames[i]
+    +indexGames(d.title, d.text, d.url, d.img)
