@@ -8,7 +8,7 @@
 		{
 			"text": "Casino",
 			"icon": "assets/img/iconos/casino.svg",
-			"src": "#"
+			"src": "casino.html"
 		},
 		{
 			"text": "Live Wagering",
@@ -62,7 +62,7 @@
 					"src": "#"
 				},
 				{
-					"text": "Reports",
+					"text": "Reports mobile",
 					"src": "#"
 				}
 			]
@@ -107,6 +107,90 @@
 			"text": "casino games",
 			"url": "#",
 			"img": "assets/img/Home-page/casino-games.png"
+		}
+	],
+	"casinoBanner":[
+		{
+			"img": "assets/img/Casino/ruleta.jpg",
+			"txt1": "online casino",
+			"txt2": "At The Game, we do our very best to educate, entertain, connect, and challenge gaming enthusiasts like you from every corner of the globe. Here, the players can be assured of fairness, fast payouts and excellent customer service."
+		}
+	],
+	"casinoGames": [
+		{
+			"title": "6 deck blackjack",
+			"url": "#",
+			"img": "assets/img/Casino/6deckBlackjack.png"
+		},
+		{
+			"title": "single hand blackjack",
+			"url": "#",
+			"img": "assets/img/Casino/6deckBlackjack.png"
+		},
+		{
+			"title": "single deck blackjack",
+			"url": "#",
+			"img": "assets/img/Casino/singledeckBlackjack.png"
+		},
+		{
+			"title": "let it ride",
+			"url": "#",
+			"img": "assets/img/Casino/LetItRide.png"
+		},
+		{
+			"title": "roulette",
+			"url": "#",
+			"img": "assets/img/Casino/roulette.png"
+		},
+		{
+			"title": "craps",
+			"url": "#",
+			"img": "assets/img/Casino/Craps.png"
+		},
+		{
+			"title": "stud poker",
+			"url": "#",
+			"img": "assets/img/Casino/Stud-poker.png"
+		},
+		{
+			"title": "baccarat",
+			"url": "#",
+			"img": "assets/img/Casino/baccarat.png"
+		},
+		{
+			"title": "pai gow poker",
+			"url": "#",
+			"img": "assets/img/Casino/Pai-gow-poker.png"
+		},
+		{
+			"title": "jack or better",
+			"url": "#",
+			"img": "assets/img/Casino/Jack-or-better.png"
+		},
+		{
+			"title": "Deuce Wild Video Poker",
+			"url": "#",
+			"img": "assets/img/Casino/DeuceWildVideoPoker.png"
+		},
+		{
+			"title": "Jokers wild Video poker",
+			"url": "#",
+			"img": "assets/img/Casino/Jokers-wild-Video-poker.png"
+		},
+		{
+			"title": "touch down fever slots",
+			"url": "#",
+			"img": "assets/img/Casino/touch-down-fever-slots.png"
+		},
+		{
+			"title": "jurasic fire slots",
+			"url": "#",
+			"img": "assets/img/Casino/jurasic-fire-slots.png"
+		},
+		{
+			"title": "Multi spins slots",
+			"url": "#",
+			"img": "assets/img/Casino/Multi-spins-slots.png"
 		}
 	]
 }

@@ -4058,7 +4058,7 @@ exports.default = tabs;
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.tnsGamesIndex = exports.tnsSingle = exports.tnsCarousell = undefined;
+exports.tnscasino = exports.tnsGamesIndex = exports.tnsSingle = exports.tnsCarousell = undefined;
 
 var _tinySlider = require('../../../node_modules/tiny-slider/src/tiny-slider');
 
@@ -4127,6 +4127,30 @@ var tnsGamesIndex = exports.tnsGamesIndex = function tnsGamesIndex() {
   });
 };
 
+var tnscasino = exports.tnscasino = function tnscasino() {
+  var slider = (0, _tinySlider.tns)({
+    container: '#tnscasino',
+    items: 1,
+    slideBy: 1,
+    swipeAngle: false,
+    speed: 400,
+    nav: false,
+    mouseDrag: true,
+    controlsText: ['<i class="tns-promotion__prev fas fa-chevron-left" aria-label="promoback"></i>', '<i class="tns-promotion__next fas fa-chevron-right" aria-label="promonext"></i>'],
+    responsive: {
+      425: {
+        items: 1
+      },
+      960: {
+        items: 3
+      },
+      1024: {
+        items: 5
+      }
+    }
+  });
+};
+
 },{"../../../node_modules/tiny-slider/src/tiny-slider":42}],46:[function(require,module,exports){
 'use strict';
 
@@ -4164,10 +4188,8 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 (function () {
 	(0, _topNav2.default)();
-	if (document.body.classList.contains('home') || document.body.classList.contains('Home-page')) {
+	if (document.body.classList.contains('home')) {
 		(0, _tnsSlider.tnsGamesIndex)();
-	} else if (document.body.classList.contains('ReglasDeportes') || document.body.classList.contains('Sport Rules')) {
-		(0, _dropdown.initAcc)();
 	}
 })();
 

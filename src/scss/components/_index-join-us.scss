@@ -40,6 +40,11 @@
                         color: var(--color-white);
                         text-decoration: none;
                     }
+                    &::after{
+                        margin: 0.5rem;
+                        margin-bottom: 0rem;
+                        content: url(../img/Home-page/arrow.svg);
+                    }
                 }
 
 

@@ -1,0 +1,78 @@
+.casino{
+    width: 100%;
+    margin-top: 3rem;
+    background-color: #1f1f1f;
+    &__content{
+        max-width: 1200px;
+        margin: 2rem auto;
+        background-color: var(--color-gray);
+        padding: 1rem;
+        color: var(--color-white);
+        border-radius: 10px;
+        text-align: center;
+        p{
+            margin-bottom: 1rem;
+        }
+    }
+    &__container{
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        overflow: scroll;
+        @media (min-width: 521px) {
+            overflow: unset;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+        @media (min-width: 960px) {
+            grid-template-columns: repeat(3, 1fr);
+        }
+        @media (min-width: 1080px) {
+            grid-template-columns: repeat(5, 1fr);
+        }
+        &__card{
+            min-width: 100%;
+            display: flex;
+            align-items: center;
+            background: var(--linear-gradient-black);
+            border-radius: 10px;
+            margin: 1rem 0.5rem;
+            border-left: 1px solid #3d3d3d;
+            border-bottom: 1px solid #3d3d3d;
+            @media (min-width: 521px) {
+                min-width: auto;
+            }
+            &__flex{
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                &__text{
+                    min-width: 112px;
+                    padding-left: 1rem;
+                    color: var(--color-white);
+                    text-transform: uppercase;
+                    &__title{
+                        font-size: 12px;
+                    }
+                    &__text{
+                        color: var(--color-yellow-strong);
+                    }
+                    &__btn{
+                        background: var(--linear-gradient-gold);
+                        font-size: 8px;
+                        font-weight: 800;
+                        margin: 0;
+                        border-radius: 2px;
+                        &:hover{
+                            color: var(--color-gray);
+                            text-decoration: none;
+                            background: linear-gradient(180deg, rgba(180,126,16,1) 0%, rgba(244,225,143,1) 20%, rgba(255,242,165,1) 50%, rgba(241,220,136,1) 80%, rgba(180,126,16,1) 100%);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -73,3 +73,30 @@ export const tnsGamesIndex = () => {
     }
   });
 };
+
+export const tnscasino = () => {
+  let slider = tns({
+    container: '#tnscasino',
+    items: 1,
+    slideBy: 1,
+    swipeAngle: false,
+    speed: 400,
+    nav: false,
+    mouseDrag: true,
+    controlsText: [
+      '<i class="tns-promotion__prev fas fa-chevron-left" aria-label="promoback"></i>',
+      '<i class="tns-promotion__next fas fa-chevron-right" aria-label="promonext"></i>'
+    ],
+    responsive: {
+      425: {
+        items: 1
+      },
+      960: {
+        items: 3
+      },
+      1024: {
+        items: 5
+      }
+    }
+  });
+};
