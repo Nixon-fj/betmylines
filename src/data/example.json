@@ -13,7 +13,7 @@
 		{
 			"text": "Live Wagering",
 			"icon": "assets/img/iconos/live-wagering.svg",
-			"src": "#"
+			"src": "live-wagering.html"
 		},
 		{
 			"text": "Horses",
