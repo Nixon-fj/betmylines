@@ -1,0 +1,99 @@
+.login {
+    background-color: #141414;
+
+    &__container {
+        max-width: 1200px;
+        margin: 0 auto;
+        margin-top: 3rem;
+        padding: 1rem;
+        padding-bottom: 2rem;
+
+        h1{
+            text-align: center;
+            color: var(--color-yellow-dark);
+        }
+
+        &__flex {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background: var(--linear-gradient-black);
+            border: 1px solid #707070;
+            border-radius: 20px;
+            overflow: hidden;
+
+            @media (min-width: 968px) {
+                flex-direction: row;
+            }
+
+            &__img {
+                width: 100%;
+                padding-top: 1rem;
+                display: flex;
+                justify-content: center;
+                background: var(--linear-gradient-gold);
+
+                img {
+                    width: 30%;
+                }
+                @media (min-width: 968px) {
+                    width: 50%;
+                    img {
+                        width: 50%;
+                    }
+                }
+
+            }
+
+            &__form {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                @media (min-width: 968px) {
+                    width: 50%;
+                }
+            }
+
+            &__form {
+                &__content {
+                    &__logo {
+                        margin: 1rem auto;
+                        max-width: 250px;
+                    }
+                    &__body{
+                        &__group{
+                            margin: 2rem 0;
+                            &:last-of-type{
+                                margin: 0.5rem 0;
+                            }
+                            &__label{
+                                text-transform: uppercase;
+                                font-size: 12px;
+                                color: var(--color-white);
+                                display: block;
+                                width: 100%;
+                            }
+                            &__input{
+                                margin: 0 auto;
+                                font-size: 16px;
+                                background-color: #707070;
+                                padding: 1rem;
+                                border: none;
+                                border-radius: 5px;
+                                width: 100%;
+                                color: var(--color-white);
+                            }
+                        }
+                        &__alert{
+                            text-align: center;
+                            color: var(--color-white);
+                            background-color: rgba(255, 0, 0, 0.50);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -5,6 +5,9 @@
     padding: 0.3rem 1rem;
     border-radius: 5px;
     margin: 0 0.5rem;
+    &:hover{
+        text-decoration: none;
+    }
 
     &__betslip {
         background-color: var(--color-yellow-dark);
@@ -40,5 +43,13 @@
             font-size: 24px;
         }
     }
-
+    &__login{
+        margin: 0;
+        width: 100%;
+        text-align: center;
+        background: var(--linear-gradient-gold);
+        border: none;
+        font-size: 16px;
+        padding: 0.5rem 1rem;
+    }
 }

@@ -1,0 +1,24 @@
+<div class="login__container__flex__form__content">
+    img(class="login__container__flex__form__content__logo" src="assets/img/logo/logo.png", alt="image logo")
+    <form class="login__container__flex__form__content__body" name="Loginform" action="javascript:void(0)" onsubmit="BackEndLogin(this); return false">
+        <div class="login__container__flex__form__content__body__group">
+            <label for="username" class="login__container__flex__form__content__body__group__label">Username</label>
+            <input type="text" class="login__container__flex__form__content__body__group__input" name="username" placeholder="username" required="">
+        </div>
+        <div class="login__container__flex__form__content__body__group">
+            <label for="password" class="login__container__flex__form__content__body__group__label">Password</label>
+            <input type="password" class="login__container__flex__form__content__body__group__input" placeholder="password" name="password" required="">
+        </div>
+        <div class="login__container__flex__form__content__body__alert">
+            <small name="msj_error_lg" class="text-danger"></small>
+        </div>
+        <div class="login__container__flex__form__content__body__group">
+            <button type="submit" class="btn btn__login">
+                <span name="msj_loading" id="id-login-loading"></span>
+                <span name="msj_login" class="m-0">LOGIN</span>
+            </button>
+        </div>
+        <input type="hidden" name="BackEndUrl" value="//betslip.betmylines.com/">
+    </form>
+    <script src="https://images.betimages.com/Betslip/js/quick.login.min.js"></script>
+</div>

@@ -1,0 +1,25 @@
+.referrals{
+    background-color: var(--color-gray);
+    &__container{
+        max-width: 1200px;
+        margin: 0 auto;
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+
+        h1{
+            color: var(--color-yellow-dark);
+            text-align: center;
+            margin-top: 5rem;
+        }
+        &__flex{
+            display: flex;
+            flex-direction: column;
+            @media (min-width: 968px) {
+                flex-direction: row;
+            }
+            iframe{
+                margin: 0;
+            }
+        }
+    }
+}
