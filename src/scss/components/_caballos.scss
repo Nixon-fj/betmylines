@@ -10,7 +10,7 @@
         padding: 0 1rem;
         h1{
             text-align: center;
-            color: var(--color-yellow-strong);
+            color: var(--color-yellow-dark);
             font-size: 32px;
             padding-top: 5rem;
             @media (min-width: 960px) {
@@ -35,7 +35,7 @@
             border-collapse: collapse;
             th{
                 background-color: #403E3E;
-                color: var(--color-yellow-strong);
+                color: var(--color-yellow-dark);
                 &:first-of-type{
                     background-color: transparent;
                 }
@@ -43,7 +43,7 @@
             td {
                 vertical-align: text-top;
                 &:first-of-type{
-                    color: var(--color-yellow-strong);
+                    color: var(--color-yellow-dark);
                     background-color: #403E3E;
                 }
             }

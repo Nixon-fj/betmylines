@@ -3,7 +3,7 @@
 		{
 			"text": "Sports",
 			"icon": "assets/img/iconos/sports.svg",
-			"src": "#"
+			"src": "sports.html"
 		},
 		{
 			"text": "Casino",
@@ -23,7 +23,7 @@
 		{
 			"text": "Referrals",
 			"icon": "assets/img/iconos/referrals.png",
-			"src": "#"
+			"src": "referrals.html"
 		}
 	],
 	"footerMenu": [
@@ -31,11 +31,11 @@
 			"footerColum": [
 				{
 					"text": "Rules & Regulations",
-					"src": "#"
+					"src": "rules-regulations.html"
 				},
 				{
 					"text": "Sportsbook",
-					"src": "#"
+					"src": "sports.html"
 				}
 			]
 		},
@@ -43,15 +43,15 @@
 			"footerColum": [
 				{
 					"text": "Terms And Conditions",
-					"src": "#"
+					"src": "terms-conditions.html"
 				},
 				{
 					"text": "Parlay Calc",
-					"src": "#"
+					"src": "parlay-calc.html"
 				},
 				{
 					"text": "Teaser Calc",
-					"src": "#"
+					"src": "teaser-calc.html"
 				}
 			]
 		},
@@ -111,7 +111,7 @@
 	],
 	"casinoBanner":[
 		{
-			"img": "assets/img/Casino/ruleta.jpg",
+			"img": "assets/img/Casino/banner.png",
 			"txt1": "online casino",
 			"txt2": "At The Game, we do our very best to educate, entertain, connect, and challenge gaming enthusiasts like you from every corner of the globe. Here, the players can be assured of fairness, fast payouts and excellent customer service."
 		}

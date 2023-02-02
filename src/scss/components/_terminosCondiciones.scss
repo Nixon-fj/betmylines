@@ -1,0 +1,18 @@
+.terminos {
+    background-color: #1b1b1b;
+    color: var(--color-white);
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding-bottom: 2rem;
+        h1, h2, h3{
+            color: var(--color-yellow-dark);
+        }
+        ol{
+            padding-left: 8rem;
+        }
+    }
+}
