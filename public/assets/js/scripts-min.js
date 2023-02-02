@@ -4001,58 +4001,39 @@ var tns = exports.tns = function tns(options) {
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
-    value: true
+	value: true
 });
-function initAcc(elem, option) {
-    document.addEventListener('click', function (e) {
-        if (!e.target.matches(elem + ' .a-btn')) return;else {
-            if (!e.target.parentElement.classList.contains('active')) {
-                if (option == true) {
-                    var elementList = document.querySelectorAll(elem + ' .a-container');
-                    Array.prototype.forEach.call(elementList, function (e) {
-                        e.classList.remove('active');
-                    });
-                }
-                e.target.parentElement.classList.add('active');
-            } else {
-                e.target.parentElement.classList.remove('active');
-            }
-        }
-    });
-}
-initAcc('.accordion.v1', true);
-initAcc('.accordion.v2', false);
-exports.default = initAcc();
+var tablecaballos = function tablecaballos() {
+	var hideTable = function hideTable() {
+		var tables = document.querySelectorAll('.lorem');
+		for (var index = 0; index < tables.length; index++) {
+			tables[index].style.display = 'none';
+		}
+	}; //fin de ocultar tablas
 
-},{}],44:[function(require,module,exports){
-'use strict';
+	var d = document,
+	    tabs = Array.prototype.slice.apply(d.querySelectorAll('.tabs-container-caballos__tab')),
+	    tableTap = d.querySelectorAll('.lorem');
 
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-var tabs = function tabs() {
-    var d = document,
-        tabs = Array.prototype.slice.apply(d.querySelectorAll('.tabs-container__tab')),
-        panels = Array.prototype.slice.apply(d.querySelectorAll('.tabs-container__panel'));
+	var _loop = function _loop(index) {
+		tabs[index].addEventListener('click', function (e) {
+			var i = tabs.indexOf(e.target);
+			var x = tabs[index];
+			hideTable();
+			var table = document.querySelector('.' + x.id);
+			table.style.display = 'block';
+			table.classList.add('is-active');
+		});
+	};
 
-    d.getElementById('tabs').addEventListener('click', function (e) {
-        if (e.target.classList.contains('tabs-container__tab')) {
-            var i = tabs.indexOf(e.target);
-            tabs.map(function (tab) {
-                return tab.classList.remove('is-active');
-            });
-            tabs[i].classList.add('is-active');
-            panels.map(function (tab) {
-                return tab.classList.remove('is-active');
-            });
-            panels[i].classList.add('is-active');
-        }
-    });
+	for (var index = 0; index < tabs.length; index++) {
+		_loop(index);
+	}
 };
 
-exports.default = tabs;
+exports.default = tablecaballos;
 
-},{}],45:[function(require,module,exports){
+},{}],44:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -4151,7 +4132,7 @@ var tnscasino = exports.tnscasino = function tnscasino() {
   });
 };
 
-},{"../../../node_modules/tiny-slider/src/tiny-slider":42}],46:[function(require,module,exports){
+},{"../../../node_modules/tiny-slider/src/tiny-slider":42}],45:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -4169,7 +4150,7 @@ var topNav = function topNav() {
 
 exports.default = topNav;
 
-},{}],47:[function(require,module,exports){
+},{}],46:[function(require,module,exports){
 'use strict';
 
 var _topNav = require('./components/topNav');
@@ -4178,11 +4159,9 @@ var _topNav2 = _interopRequireDefault(_topNav);
 
 var _tnsSlider = require('./components/tns-slider');
 
-var _tabs = require('./components/tabs');
+var _tablecaballos = require('./components/tablecaballos');
 
-var _tabs2 = _interopRequireDefault(_tabs);
-
-var _dropdown = require('./components/dropdown');
+var _tablecaballos2 = _interopRequireDefault(_tablecaballos);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -4190,9 +4169,11 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 	(0, _topNav2.default)();
 	if (document.body.classList.contains('home')) {
 		(0, _tnsSlider.tnsGamesIndex)();
+	} else if (document.body.classList.contains('caballos')) {
+		(0, _tablecaballos2.default)();
 	}
 })();
 
-},{"./components/dropdown":43,"./components/tabs":44,"./components/tns-slider":45,"./components/topNav":46}]},{},[47]);
+},{"./components/tablecaballos":43,"./components/tns-slider":44,"./components/topNav":45}]},{},[46]);
 
 //# sourceMappingURL=scripts-min.js.map

@@ -1,0 +1,24 @@
+div(class="caballos")
+	div(class="caballos__content")
+		h1 TRACK LISTING AND INFORMATION
+		div(class="caballos__limits")
+			include ../config/mixins/caballos-limites
+		p All tracks pay full odds up to a maximum of 
+				span $50,000 
+		p Exceptions to the Full Payout Rule, are the following:
+		div(class="caballos__limits")
+			include ../config/mixins/caballos-payouts
+		a(class="btn btn__caballos" href="#") VIEW FULL TRACK LIST 
+		div(class='ed-container ed-container-caballos')
+			div(class='ed-item')
+				div(class='tabs-container-caballos')
+					ul(class='tabs-container-caballos__tabs' id='tabs')
+						li(class='tabs-container-caballos__tab' id="tableOne") A TRACKS
+						li(class='tabs-container-caballos__tab' id="tableTwo") B TRACKS
+						li(class='tabs-container-caballos__tab' id="tableThree") C TRACKS
+						li(class='tabs-container-caballos__tab' id="tableFour") GREYHOUND
+						li(class='tabs-container-caballos__tab' id="tableFive") INTERNALTIONAL
+					
+					div(class='tabs-container-caballos__panels')
+						div(class='tabs-container-caballos__panel is-active')
+							include ../config/mixins/mixin-tablecaballos

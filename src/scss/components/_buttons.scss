@@ -23,13 +23,22 @@
         }
     }
 
-}
+    &__caballos{
+        max-width: 400px;
+        margin: 0 auto;
+        text-align: center;
+        padding: 0.5rem 1.5rem;
+        font-size: 18px;
+        font-weight: 900;
+        background: var(--linear-gradient-gold);
+        &:hover{
+            color: var(--color-gray);
+            text-decoration: none;
+            background: linear-gradient(180deg, rgba(180,126,16,1) 0%, rgba(244,225,143,1) 20%, rgba(255,242,165,1) 50%, rgba(241,220,136,1) 80%, rgba(180,126,16,1) 100%);
+        }
+        @media (min-width: 960px) {
+            font-size: 24px;
+        }
+    }
 
-// --color-black			: #000;
-// 	--color-gray			: #242323;
-// 	--color-white			: #fff;
-// 	--color-yellow			: #ffcf3f;
-// 	--color-yellow-lite		: #fedb73;
-// 	--color-yellow-strong	: #ffcf3f;
-// 	--color-yellow-dark		: #ffcf3f;
-// 	--linear-gradient-gold  : linear-gradient
+}

@@ -1,0 +1,57 @@
+.caballos {
+    background-color: #1b1b1b;
+    color: var(--color-white);
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 1rem;
+        h1{
+            text-align: center;
+            color: var(--color-yellow-strong);
+            font-size: 32px;
+            padding-top: 5rem;
+            @media (min-width: 960px) {
+                font-size: 40px;
+            }
+        }
+        span{
+            font-weight: 800;
+        }
+    }
+
+    &__limits {
+        margin-top: 2rem;
+        overflow: auto;
+        
+        table {
+            color: var(--color-white);
+            width: 100%;
+            min-width: 1000px;
+            border: 1px solid var(--color-gray);
+            padding: 1rem;
+            border-collapse: collapse;
+            th{
+                background-color: #403E3E;
+                color: var(--color-yellow-strong);
+                &:first-of-type{
+                    background-color: transparent;
+                }
+            }
+            td {
+                vertical-align: text-top;
+                &:first-of-type{
+                    color: var(--color-yellow-strong);
+                    background-color: #403E3E;
+                }
+            }
+
+            tr, td, th {
+                padding: 1rem;
+                border: 1px solid white;
+            }
+        }
+    }
+}
