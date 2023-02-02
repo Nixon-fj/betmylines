@@ -59,11 +59,11 @@
 			"footerColum": [
 				{
 					"text": "Reports",
-					"src": "#"
+					"src": "https://agents.betmylines.com/AgentSiteV2/"
 				},
 				{
 					"text": "Reports mobile",
-					"src": "#"
+					"src": "https://magents.betmylines.com/default.aspx?lan=en-US"
 				}
 			]
 		}
