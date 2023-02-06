@@ -79,13 +79,13 @@
 		{
 			"title": "AFILIATE PROGRAM",
 			"linkName": "Join the house",
-			"url": "#",
+			"url": "afiliate.html",
 			"img": "assets/img/Home-page/COMPUTADORA.png"
 		},
 		{
 			"title": "REFER A FRIEND",
 			"linkName": "Refer now",
-			"url": "#",
+			"url": "referrals.html",
 			"img": "assets/img/Home-page/AMIGOS.png"
 		}
 	],
@@ -93,19 +93,19 @@
 		{
 			"title": "buy up to 6 points on",
 			"text": "mayor sports",
-			"url": "#",
+			"url": "login-betslip.html",
 			"img": "assets/img/Home-page/Jugador-2.png"
 		},
 		{
 			"title": "parlays acepted",
 			"text": "mma- boxing",
-			"url": "#",
+			"url": "login-betslip.html",
 			"img": "assets/img/Home-page/MMA.png"
 		},
 		{
 			"title": "over 500",
 			"text": "casino games",
-			"url": "#",
+			"url": "login-betslip.html",
 			"img": "assets/img/Home-page/casino-games.png"
 		}
 	],
@@ -119,77 +119,77 @@
 	"casinoGames": [
 		{
 			"title": "6 deck blackjack",
-			"url": "#",
+			"url": "login-betslip.html",
 			"img": "assets/img/Casino/6deckBlackjack.png"
 		},
 		{
 			"title": "single hand blackjack",
-			"url": "#",
+			"url": "login-betslip.html",
 			"img": "assets/img/Casino/6deckBlackjack.png"
 		},
 		{
 			"title": "single deck blackjack",
-			"url": "#",
+			"url": "login-betslip.html",
 			"img": "assets/img/Casino/singledeckBlackjack.png"
 		},
 		{
 			"title": "let it ride",
-			"url": "#",
+			"url": "login-betslip.html",
 			"img": "assets/img/Casino/LetItRide.png"
 		},
 		{
 			"title": "roulette",
-			"url": "#",
+			"url": "login-betslip.html",
 			"img": "assets/img/Casino/roulette.png"
 		},
 		{
 			"title": "craps",
-			"url": "#",
+			"url": "login-betslip.html",
 			"img": "assets/img/Casino/Craps.png"
 		},
 		{
 			"title": "stud poker",
-			"url": "#",
+			"url": "login-betslip.html",
 			"img": "assets/img/Casino/Stud-poker.png"
 		},
 		{
 			"title": "baccarat",
-			"url": "#",
+			"url": "login-betslip.html",
 			"img": "assets/img/Casino/baccarat.png"
 		},
 		{
 			"title": "pai gow poker",
-			"url": "#",
+			"url": "login-betslip.html",
 			"img": "assets/img/Casino/Pai-gow-poker.png"
 		},
 		{
 			"title": "jack or better",
-			"url": "#",
+			"url": "login-betslip.html",
 			"img": "assets/img/Casino/Jack-or-better.png"
 		},
 		{
 			"title": "Deuce Wild Video Poker",
-			"url": "#",
+			"url": "login-betslip.html",
 			"img": "assets/img/Casino/DeuceWildVideoPoker.png"
 		},
 		{
 			"title": "Jokers wild Video poker",
-			"url": "#",
+			"url": "login-betslip.html",
 			"img": "assets/img/Casino/Jokers-wild-Video-poker.png"
 		},
 		{
 			"title": "touch down fever slots",
-			"url": "#",
+			"url": "login-betslip.html",
 			"img": "assets/img/Casino/touch-down-fever-slots.png"
 		},
 		{
 			"title": "jurasic fire slots",
-			"url": "#",
+			"url": "login-betslip.html",
 			"img": "assets/img/Casino/jurasic-fire-slots.png"
 		},
 		{
 			"title": "Multi spins slots",
-			"url": "#",
+			"url": "login-betslip.html",
 			"img": "assets/img/Casino/Multi-spins-slots.png"
 		}
 	],

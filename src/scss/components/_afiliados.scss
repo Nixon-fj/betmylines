@@ -1,0 +1,13 @@
+.casino{
+    width: 100%;
+    margin-top: 3rem;
+    background-color: #1f1f1f;
+    &__content{
+        max-width: 1200px;
+        margin: 3rem auto;
+
+        h1{
+            color: var(--color-yellow-strong);
+        }
+    }
+}

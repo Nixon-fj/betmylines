@@ -4,7 +4,7 @@ mixin indexGames(title, text, url, img)
             div(class="games__container__card__flex__text")
                 h3(class="games__container__card__flex__text__title")= title 
                 p(class="games__container__card__flex__text__text")= text
-            div(class="games__container__card__flex__img"): img(src=`${img}`, alt="image")
+            div(class="games__container__card__flex__img"): img(src=`${img}`, alt="image" width="206" height="230")
 
 -for (var i = 0; i < indexGames.length; i++)
     -var d = indexGames[i]
