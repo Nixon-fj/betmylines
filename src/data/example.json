@@ -22,7 +22,7 @@
 		},
 		{
 			"text": "Referrals",
-			"icon": "assets/img/iconos/referrals.png",
+			"icon": "assets/img/iconos/referrals.svg",
 			"src": "referrals.html"
 		}
 	],
@@ -217,7 +217,7 @@
 		{
 			"title": "live casino",
 			"url": "casino.html",
-			"img": "assets/img/affiliates/casino.png"
+			"img": "assets/img/affiliates/live-casino.png"
 		},
 		{
 			"title": "sports",

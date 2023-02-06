@@ -1,10 +1,10 @@
 mixin casinoBanner(bg, img, txt1, txt2)
-    div(class='banner-container')
-        div(class='banner-container__content')
-            div(class='banner-container__content__text')
-                p(class='banner-container__content__text__primary')= txt1
+    div(class='banner-casino')
+        div(class='banner-casino__content')
+            div(class='banner-casino__content__text')
+                p(class='banner-casino__content__text__primary')= txt1
                 p= txt2
-            div(class='banner-container__content__img'): img(src=`${img}`, alt="image" width="633" height="375")
+            div(class='banner-casino__content__img'): img(src=`${img}`, alt="image" width="633" height="375")
 -for (var i = 0; i < casinoBanner.length; i++)
     -var d = casinoBanner[i]
-    +casinoBanner(d.bg, d.img, d.txt1, d.txt2)
+    +casinoBanner(d.bg, d.img, d.txt1, d.txt2) 

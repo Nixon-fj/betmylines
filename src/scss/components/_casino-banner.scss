@@ -1,4 +1,4 @@
-.banner-container{
+.banner-casino{
     width: 100%;
     height: auto;
     margin-top: 3rem;
@@ -47,6 +47,20 @@
                 font-size: 32px;
                 @media (min-width: 960px){
                     font-size: 40px;
+                }
+            }
+        }
+        &__img{
+            display: flex;
+            height: 90%;
+            justify-content: center;
+            img{
+                max-width: 50%;
+                @media (min-width: 768px){
+                    max-width: 80%;
+                }
+                @media (min-width: 960px){
+                    max-width: 65%;
                 }
             }
         }
