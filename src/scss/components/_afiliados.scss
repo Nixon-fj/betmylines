@@ -1,13 +1,54 @@
-.casino{
+.afiliados{
     width: 100%;
     margin-top: 3rem;
     background-color: #1f1f1f;
-    &__content{
+    &__container{
         max-width: 1200px;
-        margin: 3rem auto;
-
+        margin: 0 auto;
         h1{
+            text-align: center;
+            font-size: 32px;
             color: var(--color-yellow-strong);
+        }
+        p{
+            margin: 0;
+            color: var(--color-yellow-strong);
+            font-size: 24px;
+            text-transform: uppercase;
+        }
+        &__content{
+            display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        @media (min-width: 521px) {
+            grid-template-columns: repeat(2, 1fr);;
+        }
+        @media (min-width: 968px) {
+            grid-template-columns: repeat(3, 1fr);
+        }
+        &__card{
+            display: flex;
+            align-items: center;
+            background: var(--linear-gradient-black);
+            border-radius: 10px;
+            margin: 1rem 0.5rem;
+            border-left: 1px solid #3d3d3d;
+            border-bottom: 1px solid #3d3d3d;
+            &__flex{
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                &__text{
+                    min-width: 112px;
+                    padding-left: 1rem;
+                    color: var(--color-white);
+                    text-transform: uppercase;
+                    &__title{
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
         }
     }
 }

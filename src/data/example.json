@@ -193,6 +193,48 @@
 			"img": "assets/img/Casino/Multi-spins-slots.png"
 		}
 	],
+	"afiliados": [
+		{
+			"title": "casino",
+			"url": "casino.html",
+			"img": "assets/img/affiliates/casino.png"
+		},
+		{
+			"title": "contest",
+			"url": "login-betslip.html",
+			"img": "assets/img/affiliates/contest.png"
+		},
+		{
+			"title": "horses",
+			"url": "horses.html",
+			"img": "assets/img/affiliates/horses.png"
+		},
+		{
+			"title": "live wagering",
+			"url": "live-wagering.html",
+			"img": "assets/img/affiliates/live-wagering.png"
+		},
+		{
+			"title": "live casino",
+			"url": "casino.html",
+			"img": "assets/img/affiliates/casino.png"
+		},
+		{
+			"title": "sports",
+			"url": "sports.html",
+			"img": "assets/img/affiliates/sports.png"
+		},
+		{
+			"title": "live sports",
+			"url": "sports.html",
+			"img": "assets/img/affiliates/live-sports.png"
+		},
+		{
+			"title": "all sports",
+			"url": "sports.html",
+			"img": "assets/img/affiliates/all-sports.png"
+		}
+	],
 
 
 

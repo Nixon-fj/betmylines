@@ -1,11 +1,10 @@
-mixin casinoGames(title, url, img)
-    div(class="casino__container__card")
-        div(class="casino__container__card__flex")
-            div(class="casino__container__card__flex__text")
-                h3(class="casino__container__card__flex__text__title")= title
-                a(class="btn casino__container__card__flex__text__btn" href=`${url}`) PLAY NOW
-            div(class="casino__container__card__flex__img"): img(src=`${img}`, alt="image" width="122" height="161")
+mixin afiliados(title, url, img)
+    a(class="afiliados__container__content__card" href=`${url}`) 
+        div(class="afiliados__container__content__card__flex")
+            div(class="afiliados__container__content__card__flex__text")
+                h3(class="afiliados__container__content__card__flex__text__title")= title
+            div(class="afiliados__container__content__card__flex__img"): img(src=`${img}`, alt="image" width="122" height="161")
 
--for (var i = 0; i < casinoGames.length; i++)
-    -var d = casinoGames[i]
-    +casinoGames(d.title, d.url, d.img)
+-for (var i = 0; i < afiliados.length; i++)
+    -var d = afiliados[i]
+    +afiliados(d.title, d.url, d.img)
