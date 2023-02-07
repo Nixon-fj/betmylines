@@ -46,11 +46,11 @@
 					"src": "terms-conditions.html"
 				},
 				{
-					"text": "Parlay Calc",
+					"text": "Parlay Calculator",
 					"src": "parlay-calc.html"
 				},
 				{
-					"text": "Teaser Calc",
+					"text": "Teaser Calculator",
 					"src": "teaser-calc.html"
 				}
 			]
@@ -97,8 +97,8 @@
 			"img": "assets/img/Home-page/Jugador-2.png"
 		},
 		{
-			"title": "parlays acepted",
-			"text": "mma- boxing",
+			"title": "parlays accepted",
+			"text": "mma - boxing",
 			"url": "login-betslip.html",
 			"img": "assets/img/Home-page/MMA.png"
 		},
@@ -113,7 +113,7 @@
 		{
 			"img": "assets/img/Casino/banner.png",
 			"txt1": "online casino",
-			"txt2": "At The Game, we do our very best to educate, entertain, connect, and challenge gaming enthusiasts like you from every corner of the globe. Here, the players can be assured of fairness, fast payouts and excellent customer service."
+			"txt2": "At Bet my Lines, we do our very best to educate, entertain, connect, and challenge gaming enthusiasts like you from every corner of the globe. Here, the players can be assured of fairness, fast payouts and excellent customer service."
 		}
 	],
 	"casinoGames": [
@@ -163,17 +163,17 @@
 			"img": "assets/img/Casino/Pai-gow-poker.png"
 		},
 		{
-			"title": "jack or better",
+			"title": "jacks or better",
 			"url": "login-betslip.html",
 			"img": "assets/img/Casino/Jack-or-better.png"
 		},
 		{
-			"title": "Deuce Wild Video Poker",
+			"title": "Deuces & Wild Video Poker",
 			"url": "login-betslip.html",
 			"img": "assets/img/Casino/DeuceWildVideoPoker.png"
 		},
 		{
-			"title": "Jokers wild Video poker",
+			"title": "Joker Video poker",
 			"url": "login-betslip.html",
 			"img": "assets/img/Casino/Jokers-wild-Video-poker.png"
 		},
