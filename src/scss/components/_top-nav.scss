@@ -25,6 +25,9 @@
 	&__logo {
 		max-height: 2rem;
 		display: block;
+		@media (min-width: 960px) {
+			max-height: 3rem;
+		}
 	}
 	&__menu {
 		@include fromTo(s, l) {
