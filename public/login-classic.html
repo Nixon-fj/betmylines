@@ -76,7 +76,22 @@
         <div class="login__container">
           <h1>CLASSIC</h1>
           <div class="login__container__flex">
-            <div class="login__container__flex__form"><div class="login__container__flex__form__content"><img class="login__container__flex__form__content__logo" src="assets/img/logo/logo.png" alt="image logo" width="357" height="651"><form class="login__container__flex__form__content__body" name="Loginform" method="post" action="//wager.betmylines.com/DefaultLogin.aspx">
+            <div class="login__container__flex__form"><div class="login__container__flex__form__content"><img class="login__container__flex__form__content__logo" src="assets/img/logo/logo.svg" alt="image logo" width="357" height="651"><form id="clasicDesktop" class="login__container__flex__form__content__body" name="Loginform" method="post" action="//wager.betmylines.com/DefaultLogin.aspx">
+<input type="hidden" name="siteID" id="siteID" value="361">
+<input type="hidden" name="errorURL" value="//www.betmylines.com/?Wrong-User-Password">
+<div class="login__container__flex__form__content__body__group">
+<label class="login__container__flex__form__content__body__group__label" for="exampleInputEmail3">Account</label>
+<input type="text" class="login__container__flex__form__content__body__group__input" placeholder="username" name="account" id="account" required="">
+</div>
+<div class="login__container__flex__form__content__body__group">
+<label class="login__container__flex__form__content__body__group__label" for="exampleInputPassword3">Password</label>
+<input type="password" class="login__container__flex__form__content__body__group__input" placeholder="password" name="password" id="password" required="">
+</div>
+<div class="login__container__flex__form__content__body__group">
+<button type="submit" class="btn btn__login" name="input-button">LOGIN</button>
+</div>
+</form>
+<form id="clasicMobile" class="login__container__flex__form__content__body" name="Loginform" method="post" action="//mobile.betmylines.com/DefaultLogin.aspx">
 <input type="hidden" name="siteID" id="siteID" value="361">
 <input type="hidden" name="errorURL" value="//www.betmylines.com/?Wrong-User-Password">
 <div class="login__container__flex__form__content__body__group">
