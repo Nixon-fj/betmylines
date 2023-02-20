@@ -4,8 +4,10 @@
         max-width: 1200px;
         margin: 0 auto;
         iframe{
+            margin-top: -1.5rem;
             width: 100%;
             min-height: 800px;
+            border: none;
         }
     }
 }
